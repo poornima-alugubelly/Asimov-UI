@@ -16,10 +16,7 @@
   line-height: 2rem;
   flex-grow: 1;
 }
-iframe {
-  width: 100%;
-  margin: auto;
-}
+
 @media (max-width: 648px) {
   .section-container-50-50 {
     grid-template-columns: 1fr;
