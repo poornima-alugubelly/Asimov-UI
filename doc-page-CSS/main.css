@@ -1,0 +1,32 @@
+.section-container-50-50 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+}
+
+.main-img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 2rem;
+  flex-grow: 1;
+}
+iframe {
+  max-width: 100%;
+  margin: auto;
+}
+@media (max-width: 648px) {
+  .section-container-50-50 {
+    grid-template-columns: 1fr;
+  }
+
+  .call-to-action {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
