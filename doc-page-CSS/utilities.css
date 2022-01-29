@@ -29,7 +29,7 @@ ul {
   padding: 0.5rem;
   color: var(--bg-color);
   font-weight: bold;
-  min-width: 10rem;
+  min-width: 5rem;
   background-color: var(--primary-color);
   clip-path: polygon(89% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 76%);
   font-family: "Orbitron", sans-serif;
@@ -40,7 +40,7 @@ ul {
   padding: 0.5rem;
   font-weight: bold;
   text-align: center;
-  min-width: 10rem;
+  min-width: 5rem;
   color: var(--bg-color);
   background-color: var(--text-color);
   clip-path: polygon(89% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 76%);
@@ -98,4 +98,16 @@ footer {
 
 .acknowledgment a {
   color: var(--text-color);
+}
+
+@media (max-width: 648px) {
+  .container-gutter {
+    gap: 1rem;
+    margin: 1rem;
+  }
+
+  .section-gutter {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
 }

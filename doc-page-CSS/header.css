@@ -2,6 +2,9 @@
   min-height: 6rem;
   border-bottom: 1px solid var(--primary-color);
   padding: 0 5rem;
+}
+
+.nav-bar.flex-center {
   justify-content: space-between;
 }
 

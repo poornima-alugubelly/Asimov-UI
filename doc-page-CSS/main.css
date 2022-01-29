@@ -1,6 +1,6 @@
 .section-container-50-50 {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 40% calc(60% - 2rem);
   align-items: center;
 }
 
