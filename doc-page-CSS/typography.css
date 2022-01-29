@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("./reset.css");
+body {
+  font-family: "Orbitron", sans-serif;
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+  color: var(--text-color);
+}
+
+.headings {
+  font-family: "Chakra Petch", sans-serif;
+  line-height: 1;
+}
+
+.text {
+  font-family: "Rajdhani", sans-serif;
+}
+
+.heading-large {
+  font-size: 3rem;
+}
+
+.text-large {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 780px) {
+  :root {
+    font-size: 80%;
+  }
+}

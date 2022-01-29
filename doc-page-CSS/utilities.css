@@ -1,0 +1,113 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.txt-high-light,
+a,
+.icons {
+  color: var(--primary-color);
+}
+
+a {
+  font-family: "Chakra Petch", sans-serif;
+  text-decoration: none;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.primary-button {
+  padding: 0.5rem;
+  color: var(--bg-color);
+  font-weight: bold;
+  min-width: 5rem;
+  background-color: var(--primary-color);
+  clip-path: polygon(89% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 76%);
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+}
+
+.secondary-button {
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  min-width: 5rem;
+  color: var(--bg-color);
+  background-color: var(--text-color);
+  clip-path: polygon(89% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 76%);
+  font-family: "Orbitron", sans-serif;
+  position: relative;
+}
+
+.primary-button:hover {
+  background-color: turquoise;
+}
+
+.secondary-button:hover {
+  background-color: var(--primary-color);
+}
+
+.call-to-action {
+  display: flex;
+  gap: 1rem;
+}
+
+.holo-bg {
+  background-color: var(--ternary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.rounded-border {
+  border-radius: 2px;
+}
+
+.margin-right-large {
+  margin-right: 2rem;
+}
+
+.container-gutter {
+  gap: 2rem;
+  margin: 4rem;
+}
+
+.section-gutter {
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  padding: 3rem;
+  text-align: center;
+  border-top: 1px solid var(--text-color);
+  gap: 1rem;
+  color: var(--text-color);
+}
+
+.acknowledgment a {
+  color: var(--text-color);
+}
+
+@media (max-width: 648px) {
+  .container-gutter {
+    gap: 1rem;
+    margin: 1rem;
+  }
+
+  .section-gutter {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+}
