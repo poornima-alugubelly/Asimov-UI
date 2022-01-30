@@ -99,7 +99,7 @@ ul {
   flex-direction: column;
 }
 
-.grid {
+.grid-15-85 {
   display: grid;
   grid-template-columns: 15% 85%;
 }
@@ -133,9 +133,13 @@ ul {
   border: 1px solid var(--ternary-color);
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  padding: 2rem;
+  gap: 2rem;
+  padding: 3rem;
   margin: 2rem 0;
+}
+
+.code-snippet {
+  max-width: 100%;
 }
 
 /* footer */
