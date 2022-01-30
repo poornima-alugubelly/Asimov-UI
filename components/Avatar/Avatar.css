@@ -1,0 +1,64 @@
+@import url(/Asimov-UI/style.css);
+
+.avatar {
+  --avatar-size: 1.5rem;
+  /* padding: 5rem; */
+}
+
+.avatar-xs {
+  --avatar-width: var(--avatar-size);
+  --avatar-height: var(--avatar-size);
+}
+
+.avatar-s {
+  --avatar-width: calc(var(--avatar-size) * 1.5);
+  --avatar-height: calc(var(--avatar-size) * 1.5);
+}
+
+.avatar-m {
+  --avatar-width: calc(var(--avatar-size) * 2);
+  --avatar-height: calc(var(--avatar-size) * 2);
+}
+
+.avatar-l {
+  --avatar-width: calc(var(--avatar-size) * 3);
+  --avatar-height: calc(var(--avatar-size) * 3);
+}
+
+.avatar-xl {
+  --avatar-width: calc(var(--avatar-size) * 5);
+  --avatar-height: calc(var(--avatar-size) * 5);
+}
+
+.avatar-txt {
+  font-size: calc(var(--avatar-width) / 2);
+
+  border-radius: 50%;
+  display: flex;
+  width: var(--avatar-width);
+  height: var(--avatar-height);
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: var(--primary-color);
+}
+
+.avatar-round {
+  height: var(--avatar-height);
+  width: var(--avatar-width);
+  border-radius: 50%;
+}
+
+.avatar-hexa {
+  height: var(--avatar-height);
+  width: var(--avatar-width);
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
