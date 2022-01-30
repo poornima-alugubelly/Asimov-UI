@@ -17,7 +17,26 @@
   flex-grow: 1;
 }
 
+.container-gutter {
+  gap: 2rem;
+  margin: 4rem;
+}
+
+.section-gutter {
+  gap: 2rem;
+  padding: 1rem;
+}
+
 @media (max-width: 648px) {
+  .container-gutter {
+    gap: 1rem;
+    margin: 1rem;
+  }
+
+  .section-gutter {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
   .section-container-50-50 {
     grid-template-columns: 1fr;
   }

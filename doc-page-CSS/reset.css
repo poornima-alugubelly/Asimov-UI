@@ -1,8 +1,7 @@
 :root {
   --primary-color: #01d2ed;
-  /* --bg-color: #001e3c; */
   --bg-color: #000;
-  --text-color: #c5e0e4;
+  --secondary-color: #c5e0e4;
   --ternary-color: rgb(2, 46, 42);
 }
 
@@ -14,4 +13,5 @@
 
 body {
   background-color: var(--bg-color);
+  color: var(--secondary-color);
 }

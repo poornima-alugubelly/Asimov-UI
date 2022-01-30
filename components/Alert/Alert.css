@@ -1,0 +1,39 @@
+@import url("/Asimov-UI/style.css");
+
+.alert {
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  border-radius: 4px;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+}
+
+.alert-icon {
+  margin-right: 0.75rem;
+}
+
+.alert-primary {
+  color: #7eafe4;
+  background-color: #06294e;
+}
+
+.alert-secondary {
+  color: #888b91;
+  background-color: #2f3033;
+}
+
+.alert-success {
+  color: #4dc569;
+  background-color: #073812;
+}
+
+.alert-danger {
+  color: rgb(199, 115, 115);
+  background-color: rgb(71, 7, 7);
+}
+
+.alert-warning {
+  color: rgb(241, 241, 68);
+  background-color: rgb(78, 78, 6);
+}
