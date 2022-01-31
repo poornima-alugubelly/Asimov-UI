@@ -1,0 +1,67 @@
+@import url("../../style.css");
+@import url("../Avatar/Avatar.css");
+.badge-wrapper {
+  width: fit-content;
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  position: absolute;
+
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-top {
+  top: -11px;
+  right: -13px;
+}
+
+.badge-status {
+  right: 1%;
+  bottom: 0.5%;
+  border: 3px solid var(--bg-color);
+  height: calc(var(--avatar-height) / 4);
+  width: calc(var(--avatar-width) / 4);
+}
+
+.badge-s {
+  width: 20px;
+  height: 20px;
+
+  font-size: 0.9rem;
+}
+
+.badge-red {
+  background-color: red;
+  color: white;
+}
+
+.badge-green {
+  background-color: green;
+  color: white;
+}
+
+.badge-yellow {
+  background-color: rgb(245, 210, 12);
+  color: white;
+}
+
+.badge-lg {
+  width: 25px;
+  height: 25px;
+  font-size: 1.2rem;
+}
+
+.badge-toggle.toggle-display {
+  display: none;
+}
