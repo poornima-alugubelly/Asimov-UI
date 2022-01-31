@@ -1,0 +1,51 @@
+@import url(/Asimov-UI/style.css);
+.btn {
+  padding: 0.75rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+}
+
+.btn-primary {
+  border: none;
+  color: var(--ternary-color);
+  background-color: var(--primary-color);
+  width: fit-content;
+}
+
+.btn-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: var(--ternary-color);
+}
+
+.btn-primary:hover {
+  background-color: rgb(76, 167, 157);
+  box-shadow: 0 5px 10px 4px rgba(119, 174, 206, 0.4);
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--ternary-color);
+}
+
+.btn-link {
+  color: var(--secondary-color);
+  border-bottom: 1px double var(--primary-color);
+}
+
+.btn-link:hover {
+  color: var(--primary-color);
+}
+
+.btn-icon {
+  color: var(--primary-color);
+}
+
+.btn-icon:hover {
+  color: rgb(76, 167, 157);
+}
