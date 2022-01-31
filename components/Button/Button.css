@@ -5,40 +5,39 @@
   text-align: center;
   border-radius: 4px;
   letter-spacing: 1px;
-  font-size: 1em;
+
   font-family: "Orbitron", sans-serif;
   cursor: pointer;
+  border: none;
 }
 
-.btn-primary {
-  border: none;
+.btn-primary-solid {
   color: var(--ternary-color);
   background-color: var(--primary-color);
-  width: fit-content;
 }
 
-.btn-secondary {
+.btn-primary-outline {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   background-color: var(--ternary-color);
 }
 
-.btn-primary:hover {
+.btn-primary-solid:hover {
   background-color: rgb(76, 167, 157);
   box-shadow: 0 5px 10px 4px rgba(119, 174, 206, 0.4);
 }
 
-.btn-secondary:hover {
+.btn-primary-outline:hover {
   background-color: var(--primary-color);
   color: var(--ternary-color);
 }
 
-.btn-link {
+.link-text {
   color: var(--secondary-color);
   border-bottom: 1px double var(--primary-color);
 }
 
-.btn-link:hover {
+.link-text:hover {
   color: var(--primary-color);
 }
 
@@ -48,4 +47,23 @@
 
 .btn-icon:hover {
   color: rgb(76, 167, 157);
+}
+
+.btn-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.btn-lg {
+  padding: 1rem;
+}
+
+.btn-s {
+  padding: 0.5rem;
+}
+
+.btn-floating {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
 }
