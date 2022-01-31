@@ -29,7 +29,7 @@
 .badge-status {
   right: 1%;
   bottom: 0.5%;
-  border: 2px solid var(--bg-color);
+  border: 3px solid var(--bg-color);
   height: calc(var(--avatar-height) / 4);
   width: calc(var(--avatar-width) / 4);
 }
