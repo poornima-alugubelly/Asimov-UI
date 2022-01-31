@@ -1,4 +1,4 @@
-@import url(/Asimov-UI/components/Alert/Alert.css);
-@import url(/Asimov-UI/components/Avatar/Avatar.css);
-@import url(Asimov-UI/components/Badge/Badge.css);
-@import url(/Asimov-UI/components/Button/Button.css);
+@import url(../components/Alert/Alert.css);
+@import url(../components/Avatar/Avatar.css);
+@import url(../components/Badge/Badge.css);
+@import url(../components/Button/Button.css);
