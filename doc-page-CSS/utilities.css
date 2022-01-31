@@ -68,6 +68,22 @@ ul {
   flex-direction: column;
 }
 
+.gap-s {
+  gap: 1rem;
+}
+
+.gap-m {
+  gap: 1.5rem;
+}
+
+.gap-l {
+  gap: 2rem;
+}
+
+.gap-xl {
+  gap: 3rem;
+}
+
 .grid-15-85 {
   display: grid;
   grid-template-columns: 15% 85%;

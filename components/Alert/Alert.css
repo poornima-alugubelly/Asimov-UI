@@ -1,5 +1,4 @@
-@import url("/Asimov-UI/style.css");
-
+@import url("../../style.css");
 .alert {
   padding: 0.75rem;
   font-size: 1.25rem;

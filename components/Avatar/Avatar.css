@@ -1,4 +1,4 @@
-@import url(/Asimov-UI/style.css);
+@import url("../../style.css");
 
 .avatar {
   --avatar-size: 1.5rem;
