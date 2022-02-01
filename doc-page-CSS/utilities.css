@@ -139,13 +139,13 @@ ul {
   width: 1rem;
 }
 
-.btn-top {
+.item-top {
   position: absolute;
 
   opacity: 0.5;
-  top: 10px;
-  right: 30px;
-  right: 5%;
+  top: 1%;
+
+  right: 1%;
 }
 
 .btn-dismiss:hover {
