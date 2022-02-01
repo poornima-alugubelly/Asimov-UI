@@ -1,0 +1,108 @@
+@import url("../../style.css");
+
+.card {
+  width: 15rem;
+  border-radius: 4px;
+  display: flex;
+}
+
+.card:hover {
+  box-shadow: #000 0px 2px 4px 0px, #000 0px 2px 16px 0px;
+}
+
+.card-title {
+  margin-bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+.card-content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer {
+  margin: 1.5rem 0 0 0;
+}
+
+.card-badge {
+  position: relative;
+}
+
+.tag {
+  position: absolute;
+  border-radius: 50%;
+  padding: 5px;
+  top: 1%;
+  left: 1%;
+  background-color: var(--primary-color);
+  color: var(--ternary-color);
+  font-weight: bold;
+}
+
+.card-vertical {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.img-container > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-horizontal {
+  display: flex;
+
+  position: relative;
+  min-width: 40rem;
+  gap: 1rem;
+}
+
+.card-horizontal .card-img > img {
+  height: 100%;
+  height: fit-content;
+  width: 10rem;
+  aspect-ratio: 4/5;
+}
+
+.card-horizontal .card-content {
+  margin-top: 0;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card-footer > .btn-icon {
+  font-size: 1.5em;
+}
+
+.text-overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  background-color: var(--secondary-color);
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card-shadow-dark {
+  box-shadow: #000 0px 2px 4px 0px, #000 0px 2px 16px 0px;
+}
+
+/* .card-shadow-dark {
+  box-shadow: var(--shadow-color) 0px 2px 4px 0px,
+    var(--shadow-color) 0px 2px 16px 0px;
+} */
