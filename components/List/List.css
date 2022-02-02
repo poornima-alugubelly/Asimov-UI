@@ -1,0 +1,18 @@
+@import url(../../style.css);
+
+.list-item {
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--ternary-color);
+}
+
+.list-item:hover {
+  background-color: var(--ternary-color);
+}
+
+.stackedlist-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  align-items: center;
+  gap: 6px;
+}

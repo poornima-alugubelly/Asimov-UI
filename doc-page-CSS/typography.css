@@ -10,34 +10,7 @@
   --ternary-font: "Orbitron", sans-serif;
 }
 body {
-  font-family: "Orbitron", sans-serif;
-  font-family: "Chakra Petch", sans-serif;
-  font-family: "Rajdhani", sans-serif;
-}
-
-.headings {
-  font-family: "Chakra Petch", sans-serif;
-  line-height: 1;
-}
-
-.text-xl {
-  font-size: 3rem;
-}
-
-.text-l {
-  font-size: 2.5rem;
-}
-
-.text-m {
-  font-size: 2rem;
-}
-
-.text-s {
-  font-size: 1.5rem;
-}
-
-.text-xs {
-  font-size: 1.25rem;
+  font-family: var(--primary-font);
 }
 
 @media (max-width: 780px) {
