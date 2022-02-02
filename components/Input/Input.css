@@ -18,12 +18,7 @@
   background-color: var(--ternary-dark);
 }
 
-.input-validation-msg {
-  content: "wrong password!";
-  color: red;
-  display: block;
-  position: absolute;
-}
+
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -44,7 +39,7 @@ input[type="checkbox"]::before {
   height: 0.65em;
 
   transform: scale(0);
-  /* transition: 120ms transform ease-in-out; */
+  
 
   background-color: var(--primary-color);
 }
@@ -74,7 +69,7 @@ input[type="checkbox"]:checked::before {
 
 .input:invalid:focus {
   border: 2px solid red;
-  /* background-color: rgb(70, 5, 5); */
+  
 }
 
 .input:invalid:focus + .form-error-msg {
