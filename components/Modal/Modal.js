@@ -5,7 +5,7 @@ const overlay = document.querySelector("#overlay");
 function closeAllModal() {
   const modals = document.querySelectorAll(".modal-centered.active");
 
-  modals.forEach((modaloverlayed) => close(modaloverlayed));
+  modals.forEach((modal) => closeModal(modal));
 }
 
 function openModalHandler(e) {
