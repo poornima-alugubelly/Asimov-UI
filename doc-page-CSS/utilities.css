@@ -58,6 +58,10 @@ ul {
   border-radius: 2px;
 }
 
+.element-round {
+  border-radius: 50%;
+}
+
 .margin-right-large {
   margin-right: 2rem;
 }
