@@ -1,10 +1,11 @@
 const openModalsAll = document.querySelectorAll("[data-modal-target]");
 const closeModalsAll = document.querySelectorAll("[data-modal-close]");
-const overlay = document.getElementById("overlay");
+const overlay = document.querySelector("#overlay");
 
 function closeAllModal() {
-  const modals = document.querySelectorAll(".modals.active");
-  modals.forEach((modal) => close(modal));
+  const modals = document.querySelectorAll(".modal-centered.active");
+
+  modals.forEach((modaloverlayed) => close(modaloverlayed));
 }
 
 function openModalHandler(e) {
@@ -14,7 +15,7 @@ function openModalHandler(e) {
 }
 
 function closeModalHandler(e) {
-  const modal = e.target.closest(".modal");
+  const modal = e.target.closest(".modal-centered");
 
   closeModal(modal);
 }

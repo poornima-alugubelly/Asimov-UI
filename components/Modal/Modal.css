@@ -19,7 +19,7 @@
   opacity: 0;
 }
 
-.modal.active {
+.modal-centered.active {
   opacity: 1;
 }
 
@@ -46,4 +46,5 @@
 
 #overlay.active {
   opacity: 1;
+  pointer-events: all;
 }
