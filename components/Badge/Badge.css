@@ -16,14 +16,15 @@
   border-radius: 50%;
   font-weight: bold;
   display: flex;
-
+  border: 2px solid var(--bg-color);
   align-items: center;
   justify-content: center;
+  padding: 1px;
 }
 
 .badge-top {
-  top: -11px;
-  right: -13px;
+  top: -9px;
+  right: -10px;
 }
 
 .badge-status {

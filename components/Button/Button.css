@@ -34,15 +34,17 @@
 
 .link-text {
   color: var(--secondary-color);
-  border-bottom: 1px double var(--primary-color);
 }
 
 .link-text:hover {
   color: var(--primary-color);
+  border-bottom: 1px double var(--primary-color);
 }
 
 .btn-icon {
+  font-size: 1.75rem;
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 .btn-icon:hover {
