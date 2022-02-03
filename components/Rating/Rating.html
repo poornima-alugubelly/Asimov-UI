@@ -5,7 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ratings</title>
-    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Rating.css" />
   </head>
-  <body></body>
+  <body>
+    <h3>Fixed ratings</h3>
+    <div>
+      <i class="fas fa-star rating rating-fixed"></i>
+      <i class="fas fa-star rating rating-fixed"></i>
+      <i class="fas fa-star rating rating-fixed"></i>
+      <i class="far fa-star rating rating-fixed"></i>
+      <i class="far fa-star rating rating-fixed"></i>
+    </div>
+    <h1>Dynamic ratings</h1>
+    <i class="far fa-star rating rating-dynamic" data-star-value="1"></i>
+    <i class="far fa-star rating rating-dynamic" data-star-value="2"></i>
+    <i class="far fa-star rating rating-dynamic" data-star-value="3"></i>
+    <i class="far fa-star rating rating-dynamic" data-star-value="4"></i>
+    <i class="far fa-star rating rating-dynamic" data-star-value="5"></i>
+
+    <script src="./Rating.js"></script>
+  </body>
 </html>
