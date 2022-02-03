@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="./Modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    </div>
+    <h1>Basic Modal</h1>
+    <div class="modal modal holo-bg">
+      <h1 class="modal-header">
+        Removing Product
+        <button class="btn btn-dismiss">
+          <img src="../../assets/SVG/dismiss-blue.svg" alt="" />
+        </button>
+      </h1>
+      <p>Are you sure you want to remove this product from cart?</p>
+      <div class="modal-footer">
+        <button class="btn btn-primary-outline">Remove</button>
+        <button class="btn btn-primary-solid">Cancel</button>
+      </div>
+    </div>
+    <button data-modal-target="#modal" class="btn btn-primary-solid">
+      Modal Demo
+    </button>
+    <div id="modal" class="modal modal-centered holo-bg">
+      <h1 class="modal-header">
+        Removing Product
+        <button data-modal-close class="btn btn-dismiss">
+          <img src="../../assets/SVG/dismiss-blue.svg" alt="" />
+        </button>
+      </h1>
+      <p>Are you sure you want to remove this product from cart?</p>
+      <div class="modal-footer">
+        <button class="btn btn-primary-outline">Remove</button>
+        <button data-modal-close class="btn btn-primary-solid">Cancel</button>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <script src="./Modal.js"></script>
+  </body>
+</html>
