@@ -1,6 +1,9 @@
 const ratings = document.querySelectorAll(".rating");
 const ratingStarForm = document.querySelector(".rating-star-form");
-const ratingIcons = document.querySelectorAll(".rating .rating-star-icon");
+const ratingIcons = document.querySelectorAll(
+  ".rating-star-form .rating-star-icon"
+);
+const ratingGiven = document.querySelector(".rating-given");
 
 ratings.forEach((rating, id) =>
   rating.addEventListener("change", () => {
@@ -17,8 +20,10 @@ ratings.forEach((rating, id) =>
 
 ratingStarForm.addEventListener("submit", (e) => {
   e.preventDefault();
+  let ratingValue;
   ratings.forEach((rating) => {
     const ratingInput = rating.querySelector('input[type="radio"]');
-    if (ratingInput.checked) console.log(ratingInput.value);
+    if (ratingInput.checked) ratingValue = ratingInput.value;
   });
+  ratingGiven.innerText = `The rating given is ${ratingValue} stars`;
 });
