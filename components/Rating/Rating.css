@@ -1,5 +1,15 @@
 @import url(../../style.css);
 
-.rating {
+.rating-star-container input[type="radio"] {
+  appearance: none;
+}
+
+.rating-star-icon {
   color: #fad400;
+  font-size: 1.5rem;
+}
+
+.rating-star-container {
+  display: flex;
+  gap: 1rem;
 }

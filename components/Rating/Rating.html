@@ -15,19 +15,57 @@
   </head>
   <body>
     <h3>Fixed ratings</h3>
-    <div>
-      <i class="fas fa-star rating rating-fixed"></i>
-      <i class="fas fa-star rating rating-fixed"></i>
-      <i class="fas fa-star rating rating-fixed"></i>
-      <i class="far fa-star rating rating-fixed"></i>
-      <i class="far fa-star rating rating-fixed"></i>
+    <div class="rating-star-container">
+      <label>
+        <input type="radio" value="1" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
+      <label>
+        <input type="radio" value="2" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
+      <label>
+        <input type="radio" value="3" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
+      <label>
+        <input type="radio" value="4" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
+      <label>
+        <input type="radio" value="5" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
     </div>
     <h1>Dynamic ratings</h1>
-    <i class="far fa-star rating rating-dynamic" data-star-value="1"></i>
-    <i class="far fa-star rating rating-dynamic" data-star-value="2"></i>
-    <i class="far fa-star rating rating-dynamic" data-star-value="3"></i>
-    <i class="far fa-star rating rating-dynamic" data-star-value="4"></i>
-    <i class="far fa-star rating rating-dynamic" data-star-value="5"></i>
+   
+      <form class="rating-star-form">
+        <div class="rating-star-container">
+        <label class="rating">
+          <input type="radio" value="1" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+        <label class="rating">
+          <input type="radio" value="2" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+        <label class="rating">
+          <input type="radio" value="3" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+        <label class="rating">
+          <input type="radio" value="4" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+        <label class="rating">
+          <input type="radio" value="5" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+      </div>
+          <button type="submit" class="btn btn-primary-solid">Submit</button>
+       
+      </form>
+    </div>
 
     <script src="./Rating.js"></script>
   </body>
