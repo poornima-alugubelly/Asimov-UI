@@ -5,7 +5,7 @@
   text-align: center;
   border-radius: 4px;
   letter-spacing: 1px;
-
+  width: fit-content;
   font-family: "Orbitron", sans-serif;
   cursor: pointer;
   border: none;
@@ -23,8 +23,10 @@
 }
 
 .btn-primary-solid:hover {
-  background-color: rgb(76, 167, 157);
-  box-shadow: 0 2px 8px 2px rgba(119, 174, 206, 0.4);
+
+  background-color: var(--primary-dark);
+  box-shadow: 0px 5px 10px 0px var(--shadow-color);
+
 }
 
 .btn-primary-outline:hover {
@@ -34,19 +36,22 @@
 
 .link-text {
   color: var(--secondary-color);
-  border-bottom: 1px double var(--primary-color);
 }
 
 .link-text:hover {
   color: var(--primary-color);
+  border-bottom: 1px double var(--primary-color);
+  margin-bottom: -1px;
 }
 
 .btn-icon {
+  font-size: 1.75rem;
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 .btn-icon:hover {
-  color: rgb(76, 167, 157);
+  color: var(--primary-dark);
 }
 
 .btn-disabled {

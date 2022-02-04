@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Card.css" />
+  </head>
+  <body>
+    <section
+      style="
+        padding: 2rem;
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        flex-wrap: wrap;
+      "
+    >
+      <div class="card card-content padding-s">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veniam
+          odio possimus minus, sint officia placeat doloremque explicabo quam
+          officiis.
+        </p>
+        <div class="card-footer">
+          <button class="btn btn-primary-solid">Read More</button>
+        </div>
+      </div>
+
+      <!-- VERTICAL CARD V1  -->
+      <div class="card card-vertical">
+        <div class="img-container">
+          <img src="https://picsum.photos/600/500" alt="product image" />
+        </div>
+
+        <div class="card-content padding-s">
+          <h2 class="card-title">
+            Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
+          </h2>
+
+          <span>Lorem ipsum dolor sit amet.</span>
+
+          <div class="gap-s">
+            <span class="txt-bold"> Rs.899</span>
+            <span class="txt-crossed-off">Rs.999</span>
+            <span class="txt-high-light">10%</span>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary-solid">
+              <i class="fa-fw fas fa-shopping-cart"> </i>
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------------- -->
+
+      <!-- VERTICAL CARD V2 -->
+      <div class="card card-vertical">
+        <div class="img-container">
+          <img src="https://picsum.photos/600/500" alt="product image" />
+        </div>
+
+        <div class="card-content padding-s">
+          <h2 class="card-title">
+            Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
+          </h2>
+
+          <span>Lorem ipsum dolor sit amet.</span>
+
+          <div class="gap-s">
+            <span class="txt-bold"> Rs.899</span>
+            <span class="txt-crossed-off">Rs.999</span>
+            <span class="txt-high-light">10%</span>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary-solid">
+              <i class="fa-fw fas fa-shopping-cart"> </i>
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </div>
+        <span class="tag">New!</span>
+      </div>
+      <!-- ---------------------------------------- -->
+      <!-- Vertical card Dismiss -->
+      <div class="card card-vertical">
+        <div class="img-container">
+          <img src="https://picsum.photos/600/500" alt="product image" />
+        </div>
+
+        <div class="card-content padding-s">
+          <h2 class="card-title">
+            Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
+          </h2>
+
+          <span>Lorem ipsum dolor sit amet.</span>
+
+          <div class="gap-s">
+            <span class="txt-bold"> Rs.899</span>
+            <span class="txt-crossed-off">Rs.999</span>
+            <span class="txt-high-light">10%</span>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary-solid">
+              <i class="fa-fw fas fa-shopping-cart"> </i>
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </div>
+        <span class="tag">New!</span>
+        <button class="btn btn-dismiss item-top">
+          <img src="../../assets/SVG/dismiss.svg" alt="" />
+        </button>
+      </div>
+      <!-- ---------------------------- -->
+      <!-- Horizontal card -->
+      <div class="card card-horizontal padding-s">
+        <div class="img-container">
+          <img src="https://picsum.photos/600/800" alt="product image" />
+        </div>
+
+        <div class="card-content">
+          <h2 class="card-title">Lorem ipsum</h2>
+
+          <span
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Voluptates ipsum vero alias voluptas ipsam aspernatur, molestiae
+            explicabo laudantium sed quo quisquam necessitatibus libero
+            sapiente! Cumque odit aspernatur earum non cupiditate.</span
+          >
+
+          <div class="gap-s">
+            <span class="txt-bold"> Rs.899</span>
+            <span class="txt-crossed-off">Rs.999</span>
+            <span class="txt-high-light">10%</span>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary-solid">
+              <i class="fa-fw fas fa-shopping-cart"> </i>
+              <span>Add to Cart</span>
+            </button>
+            <button class="btn btn-primary-outline">
+              <i class="fa-fw fas fa-shopping-cart"> </i>
+              <span>Move to wishlist</span>
+            </button>
+          </div>
+        </div>
+        <span class="tag">New!</span>
+        <button class="btn btn-dismiss item-top">
+          <img src="../../assets/SVG/dismiss-blue.svg" alt="" />
+        </button>
+      </div>
+      <!-- ---------------- -->
+      <!-- Text Overlay card -->
+      <div class="card card-vertical">
+        <div class="img-container">
+          <img src="https://picsum.photos/600/500" alt="product image" />
+        </div>
+        <div class="text-overlay">Out of stock</div>
+        <div class="card-content padding-s">
+          <h2 class="card-title">
+            Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
+          </h2>
+
+          <span>Lorem ipsum dolor sit amet.</span>
+
+          <div class="gap-s">
+            <span class="txt-bold"> Rs.899</span>
+            <span class="txt-crossed-off">Rs.999</span>
+            <span class="txt-high-light">10%</span>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary-solid">
+              <i class="fa-fw fas fa-shopping-cart"> </i>
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </div>
+        <span class="tag">New!</span>
+        <button class="btn btn-dismiss item-top">
+          <img src="../../assets/SVG/dismiss.svg" alt="" />
+        </button>
+      </div>
+      <!-- ------------------------------------------------ -->
+      <!-- Card with shadow -->
+      <div class="card card-content padding-s card-shadow-dark">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veniam
+          odio possimus minus, sint officia placeat doloremque explicabo quam
+          officiis.
+        </p>
+        <div class="card-footer">
+          <button class="btn btn-primary-solid">Read More</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

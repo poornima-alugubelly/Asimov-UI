@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+    <link rel="stylesheet" href="./Input.css" />
+  </head>
+  <body>
+    <section class="flex-center flex-column" style="padding: 1rem">
+      <textarea
+        class="text-area"
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        class="text-area"
+        placeholder="Write a comment..."
+      ></textarea>
+      <input type="text" class="input" placeholder="Enter text" />
+      <input type="number" class="input" placeholder="Enter Number" />
+      <input type="password" class="input" placeholder="Enter password" />
+
+      <label for="radio-input-1" style="display: flex; gap: 1rem">
+        <input
+          type="radio"
+          class="input-radio elem-round"
+          id="radio-input-1"
+          name="radio-item"
+        />
+
+        <span>Radio-Input</span>
+      </label>
+      <label for="radio-input-2" style="display: flex; gap: 1rem">
+        <input
+          type="radio"
+          class="input-radio elem-round"
+          id="radio-input-2"
+          name="radio-item"
+        />
+
+        <span>Radio-Input</span>
+      </label>
+
+      <label for="checkbox-input" style="display: flex; gap: 1rem">
+        <input type="checkbox" name="checkbox" id="checkbox-input" />
+        Checkbox
+      </label>
+
+      <!-- form -->
+      <form action="" class="form-example" novalidate>
+        <label for="username-input" class="form-required-field">
+          Username</label
+        >
+
+        <input
+          type="text"
+          class="input"
+          id="username-input"
+          placeholder="Enter username"
+          required
+        />
+        <span class="form-error-msg">Required</span>
+        <label for="email-input"> </label>
+        Email
+        <input
+          type="email"
+          class="input"
+          id="email-input"
+          placeholder="Enter Email"
+          required
+        />
+        <span class="form-error-msg">Enter valid Email</span>
+
+        <label for="email-password"> Password </label>
+        <input
+          type="password"
+          class="input"
+          id="email-password"
+          pattern="^.{8,}$"
+          required
+          placeholder="Enter Password"
+        />
+
+        <span class="form-error-msg"
+          >Password must have atleast 8 characters</span
+        >
+      </form>
+    </section>
+  </body>
+</html>

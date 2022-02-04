@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ratings</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Rating.css" />
+  </head>
+  <body>
+    <h3>Fixed ratings</h3>
+    <div class="rating-star-container">
+      <label>
+        <input type="radio" value="1" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
+      <label>
+        <input type="radio" value="2" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
+      <label>
+        <input type="radio" value="3" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
+      <label>
+        <input type="radio" value="4" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
+      <label>
+        <input type="radio" value="5" name="radio" />
+        <i class="far fa-star rating-star-icon"></i>
+      </label>
+    </div>
+    <h1>Dynamic ratings</h1>
+
+    <form class="rating-star-form">
+      <div class="rating-star-container">
+        <label class="rating">
+          <input type="radio" value="1" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+        <label class="rating">
+          <input type="radio" value="2" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+        <label class="rating">
+          <input type="radio" value="3" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+        <label class="rating">
+          <input type="radio" value="4" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+        <label class="rating">
+          <input type="radio" value="5" name="radio" />
+          <i class="far fa-star rating-star-icon"></i>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary-solid">Submit</button>
+    </form>
+    <div class="rating-given text-xs"></div>
+    <script src="./Rating.js"></script>
+  </body>
+</html>
