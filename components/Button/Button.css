@@ -39,6 +39,7 @@
 .link-text:hover {
   color: var(--primary-color);
   border-bottom: 1px double var(--primary-color);
+  margin-bottom: -1px;
 }
 
 .btn-icon {
