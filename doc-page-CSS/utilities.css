@@ -126,8 +126,8 @@ ul {
 	grid-area: main;
 }
 
-.margin-btn-s {
-	margin-bottom: 1rem;
+.margin-tp-btm {
+	margin: 1rem 0rem;
 }
 .main-img {
 	max-width: 100%;
@@ -159,6 +159,11 @@ ul {
 	gap: 2rem;
 	padding: 3rem;
 	margin: 2rem 0;
+}
+
+.component-showcase-row {
+	flex-direction: row;
+	align-items: center;
 }
 
 /* dismiss button */
