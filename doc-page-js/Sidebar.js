@@ -1,10 +1,9 @@
-function Sizing4isRight() {
-	let classOnOff = window.matchMedia("(max-width: 1024px)").matches;
-	if (classOnOff) {
-		sideNavLinks.classList.add("drop-down");
-	} else {
-		sideNavLinks.classList.remove("drop-down");
-	}
+function SideBarHandler() {
+	sideNavLinks.classList.toggle("side-nav-active");
+	dropdownIcon.classList.toggle("fa-chevron-down");
+	dropdownIcon.classList.toggle("fa-chevron-up");
 }
 const sideNavLinks = document.querySelector(".side-nav-links");
-window.addEventListener("resize", Sizing4isRight);
+const navBarBtn = document.querySelector(".nav-side-bar-btn");
+const dropdownIcon = navBarBtn.querySelector(".side-bar-icon");
+navBarBtn.addEventListener("click", SideBarHandler);

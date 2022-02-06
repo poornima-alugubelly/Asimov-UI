@@ -10,7 +10,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: relative;
 }
 
 .nav-bar-primary {
@@ -60,7 +59,6 @@
 	background-color: var(--black);
 	opacity: 0;
 	pointer-events: none;
-
 	z-index: 2;
 }
 
@@ -121,10 +119,6 @@
 @media (max-width: 780px) {
 	.nav-bar {
 		padding: 2rem;
-	}
-
-	.nav-bar .drawer {
-		z-index: 3;
 	}
 
 	.toggle-btn {

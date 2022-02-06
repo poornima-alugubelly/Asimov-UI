@@ -202,11 +202,28 @@ ul {
 }
 
 @media (max-width: 1024px) {
+	.container-gutter {
+		gap: 1rem;
+		margin: 1rem;
+	}
 	.grid-mainlayout-container {
 		grid-template-columns: 1fr;
 		grid-template-areas:
 			"header"
 			"sidebar"
 			"main";
+	}
+
+	.section-gutter {
+		gap: 0.5rem;
+		padding: 0.5rem;
+	}
+	.section-container-50-50 {
+		grid-template-columns: 1fr;
+	}
+
+	.call-to-action {
+		flex-direction: column;
+		align-items: flex-start;
 	}
 }
