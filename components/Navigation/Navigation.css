@@ -1,27 +1,5 @@
 @import url(../../style.css);
-.nav-bar {
-  min-height: 5rem;
-  border-bottom: 1px solid var(--primary-color);
-  padding: 0 5rem;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.nav-bar-primary {
-  display: flex;
-  align-items: center;
-}
-
-.nav-bar-logo {
-  font-family: "Monoton", cursive;
-  font-size: 2.5rem;
-  margin-right: 2rem;
-  color: var(--primary-color);
-}
-
-.nav-bar-links {
-  display: flex;
-  gap: 2rem;
+.component-showcase .nav-bar-primary {
+	display: block;
 }

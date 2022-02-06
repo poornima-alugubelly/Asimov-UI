@@ -1,48 +1,131 @@
-.nav-bar.flex-center {
-  justify-content: space-between;
+@import url(../../style.css);
+
+/* -------NAVBAR----------- */
+.nav-bar {
+	grid-area: header;
+	min-height: 5rem;
+	border-bottom: 1px solid var(--primary-color);
+	padding: 0 5rem;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.nav-link:hover {
-  border-bottom: 1px double var(--primary-color);
+.nav-bar-primary {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
 }
 
-.one-edge-shadow {
-  -webkit-box-shadow: 0 8px 6px -8px var(--primary-color);
-  -moz-box-shadow: 0 8px 6px -8px var(--primary-color);
-  box-shadow: 0 8px 6px -8px var(--primary-color);
+.nav-bar-logo {
+	font-family: "Monoton", cursive;
+	font-size: 2.5rem;
+
+	color: var(--primary-color);
 }
 
+.nav-bar-links {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+}
+
+.shadow-bottom {
+	-webkit-box-shadow: 0 8px 6px -8px var(--primary-color);
+	-moz-box-shadow: 0 8px 6px -8px var(--primary-color);
+	box-shadow: 0 8px 6px -8px var(--primary-color);
+}
+
+/* ------------------ */
+/* DROP DOWN */
+.dropdown-container {
+	position: relative;
+}
+.btn-dropdown {
+	cursor: pointer;
+	border: none;
+	background-color: inherit;
+	font-family: var(--secondary-font);
+	color: var(--secondary-color);
+	font-size: inherit;
+	display: flex;
+}
+
+.drop-down {
+	padding: 1rem;
+	position: absolute;
+	top: 100%;
+	background-color: var(--black);
+	opacity: 0;
+	pointer-events: none;
+	z-index: 2;
+}
+
+.btn-drop-down-active {
+	opacity: 1;
+	pointer-events: all;
+}
+/* TOGGLE BUTTON */
 .toggle-btn {
-  position: absolute;
-  top: 42px;
-  right: 4%;
-  display: none;
-  flex-direction: column;
+	display: none;
+	flex-direction: column;
 
-  width: 33px;
-  height: 35px;
+	width: 33px;
+	height: 35px;
 }
 
 .toggle-bar {
-  height: 4px;
-  width: 100%;
-  margin: 5px;
-  background-color: var(--primary-color);
-  display: block;
+	height: 4px;
+	width: 100%;
+	margin: 5px;
+	background-color: var(--primary-color);
+	display: block;
+}
+/* ------------------- */
+/* --------DRAWER--------------- */
+
+.sample-container {
+	width: 50rem;
 }
 
-@media (max-width: 648px) {
-  .nav-bar.flex-center,
-  .nav-bar .flex-center {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.drawer {
+	width: fit-content;
+	text-align: center;
+	background-color: var(--black);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
 
-  .nav-bar {
-    padding: 2rem;
-  }
+.drawer-header {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
 
-  .toggle-btn {
-    display: block;
-  }
+.drawer-header .btn-dismiss {
+	height: 100%;
+	margin-left: auto;
+}
+
+.drawer.active {
+	display: block;
+}
+
+/* ----------------------- */
+
+@media (max-width: 780px) {
+	.nav-bar {
+		padding: 2rem;
+	}
+
+	.toggle-btn {
+		display: block;
+	}
+
+	.nav-bar-primary {
+		display: none;
+	}
 }
