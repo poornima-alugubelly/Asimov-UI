@@ -8,90 +8,301 @@
 		<link rel="stylesheet" href="./Grid.css" />
 	</head>
 	<body>
-		<div class="grid-2-col padding-s sample-container">
-			<img src="https://picsum.photos/600/200" alt="img-default" />
-			<div class="grid-sample-child flex-center">
-				<h1>50% off on all brands</h1>
-				<p>Sales from 22nd to 31st March</p>
+		<div class="grid-mainlayout-container">
+			<nav class="nav-bar shadow-bottom">
+				<a
+					href="#"
+					class="toggle-btn drawer-toggle"
+					data-drawer-target="#drawer"
+				>
+					<span class="toggle-bar"></span>
+					<span class="toggle-bar"></span>
+					<span class="toggle-bar"></span>
+				</a>
+				<div class="nav-bar-primary">
+					<ul class="nav-bar-links">
+						<a href="../../index.html" class="nav-bar-logo">ASIMOV</a>
+						<li><a href="../../index.html" class="link-text">Home</a></li>
+						<li>
+							<a href="../Alert/Alert.html" class="link-text">Documentation</a>
+						</li>
+					</ul>
+				</div>
+
+				<ul class="nav-bar-links">
+					<li>
+						<a
+							class="link"
+							href="https://github.com/poornima-alugubelly"
+							target="_blank"
+						>
+							<i class="fa-fw fab fa-github btn-icon"></i>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="link"
+							href="https://twitter.com/Moony_codes"
+							target="_blank"
+						>
+							<i class="fa-fw fab fa-twitter btn-icon"></i>
+						</a>
+					</li>
+				</ul>
+				<ul class="drawer" id="drawer">
+					<div class="drawer-header">
+						<a href="../../index.html" class="nav-bar-logo">ASIMOV</a>
+						<button class="btn btn-dismiss">
+							<img src="../../assets/SVG/dismiss-blue.svg" alt="" />
+						</button>
+					</div>
+
+					<li class="list-item">
+						<a href="../../index.html" class="link-text">Home</a>
+					</li>
+					<li class="list-item">
+						<a href="../Alert/Alert.html" class="link-text">Alert</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="side-nav gap-s">
+				<div class="nav-side-bar-btn">
+					<h2>Components</h2>
+					<i class="fas fa-chevron-down side-bar-icon"></i>
+				</div>
+
+				<ul class="flex-column gap-s side-nav-links">
+					<li class="side-nav-item text-xs">
+						<a href="../Alert/Alert.html" class="link-text">Alert</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Avatar/Avatar.html" class="link-text">Avatar</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Badge/Badge.html" class="link-text">Badge</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Button/Button.html" class="link-text">Button</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Card/Card.html" class="link-text">Card</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Image/Image.html" class="link-text">Image</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Input/Input.html" class="link-text">Input</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Text-Utilities/Text-Utilities.html" class="link-text"
+							>Text Utilities</a
+						>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../List/List.html" class="link-text">List</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Navigation/Navigation.html" class="link-text"
+							>Navigation</a
+						>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Modal/Modal.html" class="link-text">Modal</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Rating/Rating.html" class="link-text">Rating</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Toast/Toast.html" class="link-text">Toast</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Grid/Grid.html" class="link-text">Simplified Grid</a>
+					</li>
+				</ul>
+			</div>
+			<div class="component-page-main container-gutter flex-column">
+				<section>
+					<h1 class="text-heading text-l txt-high-light margin-tp-btm">
+						Simplified Grid
+					</h1>
+					<p class="text-s">
+						A grid layout provides a versatile layout to place elements on the
+						page.There are two grid layouts available two and three column
+						layouts.
+					</p>
+				</section>
+				<section>
+					<h2 class="text-heading text-m txt-high-light margin-tp-btm">
+						Two column grid
+					</h2>
+					<p class="text-xs">
+						Two column grid can be used by using the 'grid-2-col' class.
+					</p>
+					<p class="text-xs">You can copy html part from below code snippet.</p>
+				</section>
+				<section class="component-showcase">
+					<div class="grid-2-col padding-s sample-container">
+						<img src="../../assets/images/bannerimg.png" alt="img-default" />
+						<div class="grid-sample-child flex-center">
+							<h1>50% off on all brands</h1>
+							<p>Sales from 22nd to 31st March</p>
+						</div>
+					</div>
+				</section>
+				<code>
+					<embed
+						class="code-embeded-comp"
+						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+					/>
+				</code>
+
+				<section>
+					<h2 class="text-heading text-m txt-high-light margin-tp-btm">
+						Three column grid
+					</h2>
+					<p class="text-xs">
+						Three column grid can be used by using the 'grid-3-col' class.
+					</p>
+					<p class="text-xs">You can copy html part from below code snippet.</p>
+				</section>
+				<section class="component-showcase">
+					<div class="grid-3-col sample-container">
+						<div class="card card-vertical">
+							<div class="img-container">
+								<img
+									src="../../assets/images/hitchhikers.jpg"
+									alt="product image"
+								/>
+							</div>
+
+							<div class="card-content padding-s">
+								<h2 class="card-title">
+									Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
+								</h2>
+
+								<span>Lorem ipsum dolor sit amet.</span>
+
+								<div class="gap-s">
+									<span class="txt-bold"> Rs.899</span>
+									<span class="txt-crossed-off">Rs.999</span>
+									<span class="txt-high-light">10%</span>
+								</div>
+								<div class="card-footer">
+									<button class="btn btn-primary-solid">
+										<i class="fa-fw fas fa-shopping-cart"> </i>
+										<span>Add to Cart</span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="card card-vertical">
+							<div class="img-container">
+								<img
+									src="../../assets/images/hitchhikers.jpg"
+									alt="product image"
+								/>
+							</div>
+
+							<div class="card-content padding-s">
+								<h2 class="card-title">
+									Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
+								</h2>
+
+								<span>Lorem ipsum dolor sit amet.</span>
+
+								<div class="gap-s">
+									<span class="txt-bold"> Rs.899</span>
+									<span class="txt-crossed-off">Rs.999</span>
+									<span class="txt-high-light">10%</span>
+								</div>
+								<div class="card-footer">
+									<button class="btn btn-primary-solid">
+										<i class="fa-fw fas fa-shopping-cart"> </i>
+										<span>Add to Cart</span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="card card-vertical">
+							<div class="img-container">
+								<img
+									src="../../assets/images/hitchhikers.jpg"
+									alt="product image"
+								/>
+							</div>
+
+							<div class="card-content padding-s">
+								<h2 class="card-title">
+									Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
+								</h2>
+
+								<span>Lorem ipsum dolor sit amet.</span>
+
+								<div class="gap-s">
+									<span class="txt-bold"> Rs.899</span>
+									<span class="txt-crossed-off">Rs.999</span>
+									<span class="txt-high-light">10%</span>
+								</div>
+								<div class="card-footer">
+									<button class="btn btn-primary-solid">
+										<i class="fa-fw fas fa-shopping-cart"> </i>
+										<span>Add to Cart</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<code>
+					<embed
+						class="code-embeded-comp"
+						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+					/>
+				</code>
 			</div>
 		</div>
+		<footer class="footer flex-column">
+			<p>Made by poornima</p>
+			<ul class="social-links list-non-bullet flex-center">
+				<li class="list-item-inline">
+					<a
+						class="link"
+						href="https://github.com/poornima-alugubelly"
+						target="_blank"
+					>
+						<i class="fa-fw fab fa-github fa-2x icons"></i>
+					</a>
+				</li>
+				<li class="list-item-inline">
+					<a
+						class="link"
+						href="https://www.linkedin.com/in/poornima-alugubelly-aa13291b6/"
+						target="_blank"
+					>
+						<i class="fa-fw fab fa-linkedin fa-2x icons"></i>
+					</a>
+				</li>
+				<li class="list-item-inline">
+					<a
+						class="link"
+						href="https://twitter.com/Moony_codes "
+						target="_blank"
+					>
+						<i class="fa-fw fab fa-twitter fa-2x icons"></i>
+					</a>
+				</li>
+			</ul>
+			<small>© 2022 Asimov Creations</small>
+			<small
+				><a class="acknowledgement" href="https://storyset.com/technology"
+					>Technology illustrations by Storyset</a
+				></small
+			>
+		</footer>
+		<script src="../../doc-page-js/Header.js"></script>
+		<script src="../../doc-page-js/Sidebar.js"></script>
+
 		<div></div>
-		<div class="grid-3-col sample-container">
-			<div class="card card-vertical">
-				<div class="img-container">
-					<img src="https://picsum.photos/600/500" alt="product image" />
-				</div>
-
-				<div class="card-content padding-s">
-					<h2 class="card-title">
-						Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
-					</h2>
-
-					<span>Lorem ipsum dolor sit amet.</span>
-
-					<div class="gap-s">
-						<span class="txt-bold"> Rs.899</span>
-						<span class="txt-crossed-off">Rs.999</span>
-						<span class="txt-high-light">10%</span>
-					</div>
-					<div class="card-footer">
-						<button class="btn btn-primary-solid">
-							<i class="fa-fw fas fa-shopping-cart"> </i>
-							<span>Add to Cart</span>
-						</button>
-					</div>
-				</div>
-			</div>
-			<div class="card card-vertical">
-				<div class="img-container">
-					<img src="https://picsum.photos/600/500" alt="product image" />
-				</div>
-
-				<div class="card-content padding-s">
-					<h2 class="card-title">
-						Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
-					</h2>
-
-					<span>Lorem ipsum dolor sit amet.</span>
-
-					<div class="gap-s">
-						<span class="txt-bold"> Rs.899</span>
-						<span class="txt-crossed-off">Rs.999</span>
-						<span class="txt-high-light">10%</span>
-					</div>
-					<div class="card-footer">
-						<button class="btn btn-primary-solid">
-							<i class="fa-fw fas fa-shopping-cart"> </i>
-							<span>Add to Cart</span>
-						</button>
-					</div>
-				</div>
-			</div>
-			<div class="card card-vertical">
-				<div class="img-container">
-					<img src="https://picsum.photos/600/500" alt="product image" />
-				</div>
-
-				<div class="card-content padding-s">
-					<h2 class="card-title">
-						Lorem ipsum <i class="fa-fw fas fa-heart btn-icon"></i>
-					</h2>
-
-					<span>Lorem ipsum dolor sit amet.</span>
-
-					<div class="gap-s">
-						<span class="txt-bold"> Rs.899</span>
-						<span class="txt-crossed-off">Rs.999</span>
-						<span class="txt-high-light">10%</span>
-					</div>
-					<div class="card-footer">
-						<button class="btn btn-primary-solid">
-							<i class="fa-fw fas fa-shopping-cart"> </i>
-							<span>Add to Cart</span>
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
 	</body>
 </html>
