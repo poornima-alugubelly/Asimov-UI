@@ -15,105 +15,149 @@
   
   </head>
   <body>
-    <nav class="nav-bar flex-center one-edge-shadow">
-      <div class="nav-primary">
-        <span class="nav-bar-logo txt-high-light">ASIMOV</span>
-        <a href="#" class="toggle-btn">
-          <span class="toggle-bar"></span>
-          <span class="toggle-bar"></span>
-          <span class="toggle-bar"></span>
-        </a>
-      </div>
+    <div class="grid-mainlayout-container">
+			<nav class="nav-bar shadow-bottom">
+				<a
+					href="#"
+					class="toggle-btn drawer-toggle"
+					data-drawer-target="#drawer"
+				>
+					<span class="toggle-bar"></span>
+					<span class="toggle-bar"></span>
+					<span class="toggle-bar"></span>
+				</a>
+				<div class="nav-bar-primary">
+					<ul class="nav-bar-links">
+						<a href="../../index.html" class="nav-bar-logo">ASIMOV</a>
+						<li><a href="../../index.html" class="link-text">Home</a></li>
+						<li>
+							<a href="../Alert/Alert.html" class="link-text">Documentation</a>
+						</li>
+					</ul>
+				</div>
 
-      <div class="nav-bar-pills">
-        <ul class="flex-center">
-          <li><a href="../../index.html" class="nav-link link-colored">Home</a></li>
-          <li><a href="../Alert/Alert.html" class="nav-link link-colored">Documentation</a></li>
-          <li><a href="#" class="nav-link link-colored">Examples</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="grid-15-85">
-      <div class="side-nav">
-        <h2 class="heading txt-high-light text-s">Components</h2>
-        <ul class="flex-column">
-          <li class="side-nav-item text-xs">
-            <a href="../Alert/Alert.html" class="side-nav-item">Alert</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Avatar/Avatar.html" class="side-nav-item">Avatar</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Badge/Badge.html" class="side-nav-item">Badge</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Button/Button.html" class="side-nav-item">Button</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Card/Card.html" class="side-nav-item">Card</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Image/Image.html" class="side-nav-item">Image</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Input/Input.html" class="side-nav-item">Input</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Text-Utilities/Text-Utilities.html" class="side-nav-item">Text Utilities</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../List/List.html" class="side-nav-item">List</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Navigation/Navigation.html" class="side-nav-item">Navigation</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Modal/Modal.html" class="side-nav-item">Modal</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Rating/Rating.html" class="side-nav-item">Rating</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="../Toast/Toast.html" class="side-nav-item">Toast</a>
-          </li>
-          <li class="side-nav-item text-xs">
-            <a href="#" class="side-nav-item">Simplified Grid</a>
-          </li>
-        </ul>
-      </div>
-      <div class="container-gutter flex-column">
+				<ul class="nav-bar-links">
+					<li>
+						<a
+							class="link"
+							href="https://github.com/poornima-alugubelly"
+							target="_blank"
+						>
+							<i class="fa-fw fab fa-github btn-icon"></i>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="link"
+							href="https://twitter.com/Moony_codes"
+							target="_blank"
+						>
+							<i class="fa-fw fab fa-twitter btn-icon"></i>
+						</a>
+					</li>
+				</ul>
+				<ul class="drawer" id="drawer">
+					<div class="drawer-header">
+						<a href="../../index.html" class="nav-bar-logo">ASIMOV</a>
+						<button class="btn btn-dismiss">
+							<img src="../../assets/SVG/dismiss-blue.svg" alt="" />
+						</button>
+					</div>
+
+					<li class="list-item">
+						<a href="../../index.html" class="link-text">Home</a>
+					</li>
+					<li class="list-item">
+						<a href="../../index.html" class="link-text">Shop Now</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="side-nav gap-s dropdown-container">
+				<button class="btn-dropdown btn-with-icon">
+					<h2>Components</h2>
+					<i class="fas fa-chevron-down icon-dropdown"></i>
+				</button>
+
+				<ul class="flex-column gap-s side-nav-links">
+					<li class="side-nav-item text-xs">
+						<a href="../Alert/Alert.html" class="link-text">Alert</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Avatar/Avatar.html" class="link-text">Avatar</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Badge/Badge.html" class="link-text">Badge</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Button/Button.html" class="link-text">Button</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Card/Card.html" class="link-text">Card</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Image/Image.html" class="link-text">Image</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Input/Input.html" class="link-text">Input</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Text-Utilities/Text-Utilities.html" class="link-text"
+							>Text Utilities</a
+						>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../List/List.html" class="link-text">List</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Navigation/Navigation.html" class="link-text"
+							>Navigation</a
+						>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Modal/Modal.html" class="link-text">Modal</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Rating/Rating.html" class="link-text">Rating</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Toast/Toast.html" class="link-text">Toast</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="#" class="link-text">Simplified Grid</a>
+					</li>
+				</ul>
+			</div>
+      <div class="component-page-main container-gutter flex-column">
         <section class="section-container">
-          <h1 class="text-heading text-l txt-high-light">Alert</h1>
+          <h1 class="text-heading text-l txt-high-light margin-btn-s">Alert</h1>
           <p class="text-s">
             An alert displays a short, important message in a way that attracts
             the user's attention without interrupting the user's task.
           </p>
         </section>
         <section">
-          <h2 class="text-heading text-m txt-high-light">Simple Alert</h2>
-          <p>
+          <h2 class="text-heading text-m txt-high-light margin-btn-s">Simple Alert</h2>
+          <p class="text-xs">
             Alerts are available in 5 types- success alert, error alert, warning
             alert, primary alert, secondary alert.
           </p>
-          <p>You can copy html part from below code snippet.</p>
+          <p class="text-xs">You can copy html part from below code snippet.</p>
         </section>
         <section class="component-showcase">
-          <div class="alert alert-primary">This is a primary alert!  <a href="#" class="link-text">Check it out</a></div>
+          <div class="alert alert-primary">This is a primary alert with a link!  <a href="#" class="link-text">Check it out</a></div>
           <div class="alert alert-secondary">This is a secondary alert!</div>
           <div class="alert alert-success"><i class="fa-fw far fa-check-circle"></i> <span>This is a success alert!</span>  </div>
           <div class="alert alert-danger"><i class="fa-fw far fa-times-circle"></i> <span>This is a danger alert!</span> </div>
           <div class="alert alert-warning"><i class="fa-fw fas fa-exclamation-triangle"></i> <span>This is a warning alert!</span></span> 
         </section>
-        <code  >
-          <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%253Ci%2520class%253D%2522fa-fw%2520far%2520fa-check-circle%2520alert-icon%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520success%2520alert%21%253C%252Fdiv%253E%250A%250A"
-  style="width: 100%; height: 226px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin " scrolling="no">
-</iframe>
-</iframe>
+        <code>
+          <embed class="code-embeded-comp" src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0" >
         </code>
       </div>
     </div>
+  </div>
     <footer class="footer flex-column">
       <p>Made by poornima</p>
       <ul class="social-links list-non-bullet flex-center">
@@ -152,5 +196,7 @@
         ></small
       >
     </footer>
+    <script src="../../doc-page-js/Header.js"></script>
+		<script src="../../doc-page-js/Sidebar.js"></script>
   </body>
 </html>

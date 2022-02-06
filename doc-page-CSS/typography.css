@@ -5,16 +5,10 @@
 @import url("./reset.css");
 
 :root {
-  --primary-font: "Rajdhani", sans-serif;
-  --secondary-font: "Chakra Petch", sans-serif;
-  --ternary-font: "Orbitron", sans-serif;
+	--primary-font: "Rajdhani", sans-serif;
+	--secondary-font: "Chakra Petch", sans-serif;
+	--ternary-font: "Orbitron", sans-serif;
 }
 body {
-  font-family: var(--primary-font);
-}
-
-@media (max-width: 780px) {
-  :root {
-    font-size: 80%;
-  }
+	font-family: var(--primary-font);
 }
