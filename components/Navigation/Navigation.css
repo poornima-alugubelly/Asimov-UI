@@ -63,7 +63,7 @@
 .drop-down {
 	padding: 1rem;
 	position: absolute;
-	top: 100%;
+	/* top: 100%; */
 	background-color: var(--black);
 	opacity: 0;
 	pointer-events: none;
@@ -103,7 +103,9 @@
 	display: none;
 	z-index: 4;
 }
-
+.nav-bar .drawer {
+	height: 95vh;
+}
 .drawer-header {
 	display: flex;
 	align-items: center;
