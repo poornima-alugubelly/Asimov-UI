@@ -7,7 +7,6 @@
 	outline: none;
 	color: var(--secondary-color);
 	padding: 7px;
-	position: relative;
 }
 
 .input:hover,

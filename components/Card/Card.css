@@ -34,7 +34,7 @@
 	border-radius: 50%;
 	padding: 5px;
 	top: 1%;
-	left: 2%;
+	left: 1%;
 	background-color: var(--primary-color);
 	color: var(--ternary-color);
 	font-weight: bold;
@@ -44,12 +44,6 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
-}
-
-.img-container > img {
-	width: 100%;
-	height: auto;
-	object-fit: cover;
 }
 
 .card-horizontal {
@@ -96,8 +90,3 @@
 .card-shadow-dark {
 	box-shadow: #000 0px 2px 4px 0px, #000 0px 2px 16px 0px;
 }
-
-/* .card-shadow-dark {
-  box-shadow: var(--shadow-color) 0px 2px 4px 0px,
-    var(--shadow-color) 0px 2px 16px 0px;
-} */
