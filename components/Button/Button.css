@@ -36,7 +36,8 @@
 	color: var(--secondary-color);
 }
 
-.link-text:hover {
+.link-text:hover,
+.link-active {
 	color: var(--primary-color);
 	border-bottom: 1px double var(--primary-color);
 	margin-bottom: -1px;
@@ -79,7 +80,7 @@
 }
 
 .btn-floating-bottom {
-	position: absolute;
-	bottom: 3%;
-	right: 2%;
+	position: fixed;
+	bottom: 2%;
+	right: 1%;
 }

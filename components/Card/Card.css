@@ -47,18 +47,11 @@
 }
 
 .card-horizontal {
-	display: flex;
-
+	display: grid;
+	grid-template-columns: 30% 70%;
 	position: relative;
 	min-width: 40rem;
 	gap: 1rem;
-}
-
-.card-horizontal .card-img > img {
-	height: 100%;
-	height: fit-content;
-	width: 10rem;
-	aspect-ratio: 4/5;
 }
 
 .card-footer {

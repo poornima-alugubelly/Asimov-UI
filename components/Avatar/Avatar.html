@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<div class="grid-mainlayout-container">
-			<nav class="nav-bar shadow-bottom">
+			<nav class="nav-bar shadow-bottom" id="nav-bar">
 				<a
 					href="#"
 					class="toggle-btn drawer-toggle"
@@ -30,7 +30,9 @@
 						<a href="../../index.html" class="nav-bar-logo">ASIMOV</a>
 						<li><a href="../../index.html" class="link-text">Home</a></li>
 						<li>
-							<a href="../Alert/Alert.html" class="link-text">Documentation</a>
+							<a href="../Alert/Alert.html" class="link-text link-active"
+								>Documentation</a
+							>
 						</li>
 					</ul>
 				</div>
@@ -68,7 +70,9 @@
 						<a href="../../index.html" class="link-text">Home</a>
 					</li>
 					<li class="list-item">
-						<a href="../Alert/Alert.html" class="link-text">Documentation</a>
+						<a href="../Alert/Alert.html" class="link-text link-active"
+							>Documentation</a
+						>
 					</li>
 				</ul>
 			</nav>
@@ -83,7 +87,9 @@
 						<a href="../Alert/Alert.html" class="link-text">Alert</a>
 					</li>
 					<li class="side-nav-item text-xs">
-						<a href="../Avatar/Avatar.html" class="link-text">Avatar</a>
+						<a href="../Avatar/Avatar.html" class="link-text link-active"
+							>Avatar</a
+						>
 					</li>
 					<li class="side-nav-item text-xs">
 						<a href="../Badge/Badge.html" class="link-text">Badge</a>
@@ -100,13 +106,13 @@
 					<li class="side-nav-item text-xs">
 						<a href="../Input/Input.html" class="link-text">Input</a>
 					</li>
-					<li class="side-nav-item text-xs">
-						<a href="../Text-Utilities/Text-Utilities.html" class="link-text"
-							>Text Utilities</a
-						>
-					</li>
+
 					<li class="side-nav-item text-xs">
 						<a href="../List/List.html" class="link-text">List</a>
+					</li>
+
+					<li class="side-nav-item text-xs">
+						<a href="../Modal/Modal.html" class="link-text">Modal</a>
 					</li>
 					<li class="side-nav-item text-xs">
 						<a href="../Navigation/Navigation.html" class="link-text"
@@ -114,20 +120,25 @@
 						>
 					</li>
 					<li class="side-nav-item text-xs">
-						<a href="../Modal/Modal.html" class="link-text">Modal</a>
-					</li>
-					<li class="side-nav-item text-xs">
 						<a href="../Rating/Rating.html" class="link-text">Rating</a>
-					</li>
-					<li class="side-nav-item text-xs">
-						<a href="../Toast/Toast.html" class="link-text">Toast</a>
 					</li>
 					<li class="side-nav-item text-xs">
 						<a href="../Grid/Grid.html" class="link-text">Simplified Grid</a>
 					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Slider/Slider.html" class="link-text">Slider</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Text-Utilities/Text-Utilities.html" class="link-text"
+							>Text Utilities</a
+						>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Toast/Toast.html" class="link-text">Toast</a>
+					</li>
 				</ul>
 			</div>
-			<!-- COMPONENT INFO START -->
+
 			<div class="component-page-main container-gutter flex-column">
 				<section>
 					<h1 class="text-heading text-l txt-high-light margin-tp-btm-s">
@@ -136,15 +147,21 @@
 					<p class="text-s">
 						Avatar components of three different variants circle with image,
 						square with image and circle with text and 5 different sizes can be
-						found
+						found. Use the class <span class="txt-high-light">avatar</span> for
+						avatar component and classes
+						<span class="txt-high-light"
+							>avatar-xl avatar-l avatar-m avatar-s avatar-xs</span
+						>
+						for avatars of different sizes
 					</p>
 				</section>
 				<section>
-					<h2 class="text-heading text-m txt-high-light margin-tp-btm">
+					<h2 class="text-heading text-m txt-high-light margin-tp-btm-s">
 						Image Avatar
 					</h2>
 					<p class="text-xs">
-						Image avatar of 5 different sizes are available.
+						Image avatar of 5 different sizes are available.Use the class
+						<span class="txt-high-light">avatar-round</span> for rounded avatar.
 					</p>
 					<p class="text-xs">You can copy html part from below code snippet.</p>
 				</section>
@@ -188,7 +205,7 @@
 				<code>
 					<embed
 						class="code-embeded-comp"
-						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+						src="https://carbon.now.sh/embed/Z54bCt3f9YuCmqAqrTKC"
 					/>
 				</code>
 
@@ -197,7 +214,9 @@
 						Image Avatar square
 					</h2>
 					<p class="text-xs">
-						Image avatar of square shape of 5 different sizes are available.
+						Image avatar of square shape of 5 different sizes are available.To
+						use square avatar apply the class
+						<span class="txt-high-light">avatar-square</span>
 					</p>
 					<p class="text-xs">You can copy html part from below code snippet.</p>
 				</section>
@@ -241,14 +260,17 @@
 				<code>
 					<embed
 						class="code-embeded-comp"
-						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+						src="https://carbon.now.sh/embed/AVUuYn1aYDrsjHAJ8nCV"
 					/>
 				</code>
 				<section>
 					<h2 class="text-heading text-m txt-high-light margin-tp-btm-s">
 						Text Avatar
 					</h2>
-					<p class="text-xs">Text avatar of 5 different sizes are available.</p>
+					<p class="text-xs">
+						Text avatar of 5 different sizes are available.To use square avatar
+						apply the class <span class="txt-high-light">avatar-txt</span>
+					</p>
 					<p class="text-xs">You can copy html part from below code snippet.</p>
 				</section>
 				<section class="component-showcase component-showcase-row">
@@ -261,12 +283,17 @@
 				<code>
 					<embed
 						class="code-embeded-comp"
-						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+						src="https://carbon.now.sh/embed/IErfBZYgzqQdXUfLTjaN"
 					/>
 				</code>
 			</div>
 		</div>
-		<!-- COMPONENT INFO END -->
+		<a
+			href="#nav-bar"
+			class="btn btn-primary-solid btn-floating btn-floating-bottom"
+		>
+			<i class="fas fa-arrow-up"> </i>
+		</a>
 		<footer class="footer flex-column">
 			<p>Made by poornima</p>
 			<ul class="social-links list-non-bullet flex-center">

@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="./Grid.css" />
 	</head>
 	<body>
-		<div class="grid-mainlayout-container">
+		<div class="grid-mainlayout-container" id="nav-bar">
 			<nav class="nav-bar shadow-bottom">
 				<a
 					href="#"
@@ -100,13 +100,13 @@
 					<li class="side-nav-item text-xs">
 						<a href="../Input/Input.html" class="link-text">Input</a>
 					</li>
-					<li class="side-nav-item text-xs">
-						<a href="../Text-Utilities/Text-Utilities.html" class="link-text"
-							>Text Utilities</a
-						>
-					</li>
+
 					<li class="side-nav-item text-xs">
 						<a href="../List/List.html" class="link-text">List</a>
+					</li>
+
+					<li class="side-nav-item text-xs">
+						<a href="../Modal/Modal.html" class="link-text">Modal</a>
 					</li>
 					<li class="side-nav-item text-xs">
 						<a href="../Navigation/Navigation.html" class="link-text"
@@ -114,16 +114,23 @@
 						>
 					</li>
 					<li class="side-nav-item text-xs">
-						<a href="../Modal/Modal.html" class="link-text">Modal</a>
-					</li>
-					<li class="side-nav-item text-xs">
 						<a href="../Rating/Rating.html" class="link-text">Rating</a>
 					</li>
 					<li class="side-nav-item text-xs">
-						<a href="../Toast/Toast.html" class="link-text">Toast</a>
+						<a href="../Grid/Grid.html" class="link-text link-active"
+							>Simplified Grid</a
+						>
 					</li>
 					<li class="side-nav-item text-xs">
-						<a href="../Grid/Grid.html" class="link-text">Simplified Grid</a>
+						<a href="../Slider/Slider.html" class="link-text">Slider</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Text-Utilities/Text-Utilities.html" class="link-text"
+							>Text Utilities</a
+						>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Toast/Toast.html" class="link-text">Toast</a>
 					</li>
 				</ul>
 			</div>
@@ -148,8 +155,15 @@
 					<p class="text-xs">You can copy html part from below code snippet.</p>
 				</section>
 				<section class="component-showcase">
-					<div class="grid-2-col padding-s sample-container">
-						<img src="../../assets/images/bannerimg.png" alt="img-default" />
+					<div class="grid-2-col">
+						<div class="img-container">
+							<img
+								src="../../assets/images/bannerimg.png"
+								alt="img-default"
+								class="img-responsive"
+							/>
+						</div>
+
 						<div class="grid-sample-child flex-center">
 							<h1>50% off on all brands</h1>
 							<p>Sales from 22nd to 31st March</p>
@@ -159,7 +173,7 @@
 				<code>
 					<embed
 						class="code-embeded-comp"
-						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+						src="https://carbon.now.sh/embed/zEC7ncuBOjX07qWEQpAx"
 					/>
 				</code>
 
@@ -173,12 +187,13 @@
 					<p class="text-xs">You can copy html part from below code snippet.</p>
 				</section>
 				<section class="component-showcase">
-					<div class="grid-3-col sample-container">
+					<div class="grid-3-col">
 						<div class="card card-vertical">
 							<div class="img-container">
 								<img
 									src="../../assets/images/hitchhikers.jpg"
 									alt="product image"
+									class="img-responsive"
 								/>
 							</div>
 
@@ -207,6 +222,7 @@
 								<img
 									src="../../assets/images/hitchhikers.jpg"
 									alt="product image"
+									class="img-responsive"
 								/>
 							</div>
 
@@ -235,6 +251,7 @@
 								<img
 									src="../../assets/images/hitchhikers.jpg"
 									alt="product image"
+									class="img-responsive"
 								/>
 							</div>
 
@@ -263,11 +280,17 @@
 				<code>
 					<embed
 						class="code-embeded-comp"
-						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+						src="https://carbon.now.sh/embed/GJ5Ic34Hc5q4OXFNVcT1"
 					/>
 				</code>
 			</div>
 		</div>
+		<a
+			href="#nav-bar"
+			class="btn btn-primary-solid btn-floating btn-floating-bottom"
+		>
+			<i class="fas fa-arrow-up"> </i>
+		</a>
 		<footer class="footer flex-column">
 			<p>Made by poornima</p>
 			<ul class="social-links list-non-bullet flex-center">
