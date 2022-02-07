@@ -14,32 +14,265 @@
 		<link rel="stylesheet" href="./Button.css" />
 	</head>
 	<body>
-		<section class="container" style="padding: 1rem">
-			<button class="btn btn-primary-solid">Primary</button>
-			<button class="btn btn-primary-outline">Secondary</button>
-			<a href="#" class="link-text">Button link</a>
-			<a href="#" target="_blank">
-				<i class="fa-fw fas fa-shopping-cart btn-icon"></i>
-			</a>
-			<button class="btn btn-primary-solid btn-with-icon">
-				<i class="fa-fw fas fa-shopping-cart"> </i>
-				<span>Add to Cart</span>
-			</button>
-			<button class="btn btn-primary-solid btn-disabled">Primary</button>
-			<button class="btn btn-primary-outline btn-disabled">Secondary</button>
-			<a href="#" class="link-text btn-disabled">Button link</a>
-			<button class="btn btn-primary-solid btn-with-icon btn-disabled">
-				<i class="fa-fw fas fa-shopping-cart"> </i>
-				<span>Add to Cart</span>
-			</button>
-			<button class="btn btn-primary-solid btn-lg">large btn</button>
-			<button class="btn btn-primary-solid btn-s">Small btn</button>
-			<button class="btn btn-primary-solid btn-floating">
-				<i class="fas fa-plus"></i>
-			</button>
-			<button class="btn btn-primary-solid btn-floating btn-floating-bottom">
-				<i class="fas fa-plus"></i>
-			</button>
-		</section>
+		<div class="grid-mainlayout-container">
+			<nav class="nav-bar shadow-bottom">
+				<a
+					href="#"
+					class="toggle-btn drawer-toggle"
+					data-drawer-target="#drawer"
+				>
+					<span class="toggle-bar"></span>
+					<span class="toggle-bar"></span>
+					<span class="toggle-bar"></span>
+				</a>
+				<div class="nav-bar-primary">
+					<ul class="nav-bar-links">
+						<a href="../../index.html" class="nav-bar-logo">ASIMOV</a>
+						<li><a href="../../index.html" class="link-text">Home</a></li>
+						<li>
+							<a href="../Alert/Alert.html" class="link-text">Documentation</a>
+						</li>
+					</ul>
+				</div>
+
+				<ul class="nav-bar-links">
+					<li>
+						<a
+							class="link"
+							href="https://github.com/poornima-alugubelly"
+							target="_blank"
+						>
+							<i class="fa-fw fab fa-github btn-icon"></i>
+						</a>
+					</li>
+
+					<li>
+						<a
+							class="link"
+							href="https://twitter.com/Moony_codes"
+							target="_blank"
+						>
+							<i class="fa-fw fab fa-twitter btn-icon"></i>
+						</a>
+					</li>
+				</ul>
+				<ul class="drawer" id="drawer">
+					<div class="drawer-header">
+						<a href="../../index.html" class="nav-bar-logo">ASIMOV</a>
+						<button class="btn btn-dismiss">
+							<img src="../../assets/SVG/dismiss-blue.svg" alt="" />
+						</button>
+					</div>
+
+					<li class="list-item">
+						<a href="../../index.html" class="link-text">Home</a>
+					</li>
+					<li class="list-item">
+						<a href="../Alert/Alert.html" class="link-text">Documentation</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="side-nav gap-s">
+				<div class="nav-side-bar-btn">
+					<h2>Components</h2>
+					<i class="fas fa-chevron-down side-bar-icon"></i>
+				</div>
+
+				<ul class="flex-column gap-s side-nav-links">
+					<li class="side-nav-item text-xs">
+						<a href="../Alert/Alert.html" class="link-text">Alert</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Avatar/Avatar.html" class="link-text">Avatar</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Badge/Badge.html" class="link-text">Badge</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Button/Button.html" class="link-text">Button</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Card/Card.html" class="link-text">Card</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Image/Image.html" class="link-text">Image</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Input/Input.html" class="link-text">Input</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Text-Utilities/Text-Utilities.html" class="link-text"
+							>Text Utilities</a
+						>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../List/List.html" class="link-text">List</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Navigation/Navigation.html" class="link-text"
+							>Navigation</a
+						>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Modal/Modal.html" class="link-text">Modal</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Rating/Rating.html" class="link-text">Rating</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="../Toast/Toast.html" class="link-text">Toast</a>
+					</li>
+					<li class="side-nav-item text-xs">
+						<a href="#" class="link-text">Simplified Grid</a>
+					</li>
+				</ul>
+			</div>
+			<div class="component-page-main container-gutter flex-column">
+				<section>
+					<h1 class="text-heading text-l txt-high-light margin-tp-btm-s">
+						Buttons
+					</h1>
+					<p class="text-s">
+						Use custom button for actions in forms, dialogs, and more.
+					</p>
+				</section>
+				<section>
+					<h2 class="text-heading text-m txt-high-light margin-tp-btm-s">
+						Button variants
+					</h2>
+					<p class="text-xs">
+						There are 5 kinds of buttons available Primary solid, primary
+						outline , link button , icon button, button with icon
+					</p>
+					<p class="text-xs">You can copy html part from below code snippet.</p>
+				</section>
+				<section class="component-showcase component-showcase-row">
+					<button class="btn btn-primary-solid">Primary</button>
+					<button class="btn btn-primary-outline">Secondary</button>
+					<a href="#" class="link-text">Link</a>
+					<a href="#" target="_blank">
+						<i class="fa-fw fas fa-shopping-cart btn-icon"></i>
+					</a>
+					<button class="btn btn-primary-solid btn-with-icon">
+						<i class="fa-fw fas fa-shopping-cart"> </i>
+						<span>Add to Cart</span>
+					</button>
+				</section>
+				<code>
+					<embed
+						class="code-embeded-comp"
+						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+					/>
+				</code>
+				<section>
+					<h2 class="text-heading text-m txt-high-light margin-tp-btm-s">
+						Button disabled
+					</h2>
+					<p class="text-xs">
+						The buttons can be disabled by adding the disabled class.
+					</p>
+					<p class="text-xs">You can copy html part from below code snippet.</p>
+				</section>
+				<section class="component-showcase component-showcase-row">
+					<button class="btn btn-primary-solid btn-disabled">Primary</button>
+					<button class="btn btn-primary-outline btn-disabled">
+						Secondary
+					</button>
+					<a href="#" class="link-text btn-disabled">Button link</a>
+					<button class="btn btn-primary-solid btn-with-icon btn-disabled">
+						<i class="fa-fw fas fa-shopping-cart"> </i>
+						<span>Add to Cart</span>
+					</button>
+				</section>
+				<code>
+					<embed
+						class="code-embeded-comp"
+						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+					/>
+				</code>
+
+				<section>
+					<h2 class="text-heading text-m txt-high-light margin-tp-btm-s">
+						Button size variants
+					</h2>
+					<p class="text-xs">
+						Buttons of two sizes are available large and normal.
+					</p>
+					<p class="text-xs">You can copy html part from below code snippet.</p>
+				</section>
+				<section class="component-showcase component-showcase-row">
+					<button class="btn btn-primary-solid btn-lg">large btn</button>
+					<button class="btn btn-primary-solid btn-s">Small btn</button>
+				</section>
+				<code>
+					<embed
+						class="code-embeded-comp"
+						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+					/>
+				</code>
+
+				<section>
+					<h2 class="text-heading text-m txt-high-light margin-tp-btm-s">
+						Floating button
+					</h2>
+					<p class="text-xs">
+						Floating button can be used by adding the class 'btn-floating'
+					</p>
+					<p class="text-xs">You can copy html part from below code snippet.</p>
+				</section>
+				<section class="component-showcase component-showcase-row">
+					<button class="btn btn-primary-solid btn-floating">
+						<i class="fas fa-plus"></i>
+					</button>
+				</section>
+				<code>
+					<embed
+						class="code-embeded-comp"
+						src="https://carbon.now.sh/embed/lTkzpabnDdjBhfQStQx0"
+					/>
+				</code>
+			</div>
+		</div>
+
+		<footer class="footer flex-column">
+			<p>Made by poornima</p>
+			<ul class="social-links list-non-bullet flex-center">
+				<li class="list-item-inline">
+					<a
+						class="link"
+						href="https://github.com/poornima-alugubelly"
+						target="_blank"
+					>
+						<i class="fa-fw fab fa-github fa-2x icons"></i>
+					</a>
+				</li>
+				<li class="list-item-inline">
+					<a
+						class="link"
+						href="https://www.linkedin.com/in/poornima-alugubelly-aa13291b6/"
+						target="_blank"
+					>
+						<i class="fa-fw fab fa-linkedin fa-2x icons"></i>
+					</a>
+				</li>
+				<li class="list-item-inline">
+					<a
+						class="link"
+						href="https://twitter.com/Moony_codes "
+						target="_blank"
+					>
+						<i class="fa-fw fab fa-twitter fa-2x icons"></i>
+					</a>
+				</li>
+			</ul>
+			<small>© 2022 Asimov Creations</small>
+			<small
+				><a class="acknowledgement" href="https://storyset.com/technology"
+					>Technology illustrations by Storyset</a
+				></small
+			>
+		</footer>
+		<script src="../../doc-page-js/Header.js"></script>
+		<script src="../../doc-page-js/Sidebar.js"></script>
 	</body>
 </html>

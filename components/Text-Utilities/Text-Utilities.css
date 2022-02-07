@@ -1,38 +1,63 @@
 @import url(../../style.css);
 
 .text-heading {
-  font-family: "Chakra Petch", sans-serif;
-  line-height: 1;
+	font-family: "Chakra Petch", sans-serif;
+	line-height: 1;
 }
 
 .text-xl {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 
 .text-l {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .text-m {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 .text-s {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .text-xs {
-  font-size: 1.25rem;
+	font-size: 1.25rem;
 }
 
 .text-xxs {
-  font-size: 0.75rem;
+	font-size: 0.75rem;
 }
 
 .text-gray {
-  color: var(--shadow-color);
+	color: var(--shadow-color);
 }
 
 .text-center {
-  text-align: center;
+	text-align: center;
+}
+
+@media (max-width: 992px) {
+	.text-xl {
+		font-size: 2rem;
+	}
+	.text-l {
+		font-size: 2.5rem;
+	}
+
+	.text-m {
+		font-size: 1.5rem;
+	}
+
+	.text-s {
+		font-size: 1.25rem;
+	}
+
+	.text-xs {
+		font-size: 1rem;
+	}
+
+	.text-xxs {
+		font-size: 0.5rem;
+	}
 }

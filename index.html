@@ -14,34 +14,65 @@
 		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
-		<nav class="nav-bar flex-center one-edge-shadow">
-			<div class="nav-primary">
-				<span class="nav-bar-logo txt-high-light">ASIMOV</span>
-				<a href="#" class="toggle-btn">
-					<span class="toggle-bar"></span>
-					<span class="toggle-bar"></span>
-					<span class="toggle-bar"></span>
-				</a>
-			</div>
-
-			<div class="nav-bar-pills">
-				<ul class="flex-center">
+		<nav class="nav-bar shadow-bottom">
+			<a href="#" class="toggle-btn drawer-toggle" data-drawer-target="#drawer">
+				<span class="toggle-bar"></span>
+				<span class="toggle-bar"></span>
+				<span class="toggle-bar"></span>
+			</a>
+			<div class="nav-bar-primary">
+				<ul class="nav-bar-links">
+					<a href="index.html" class="nav-bar-logo">ASIMOV</a>
+					<li><a href="index.html" class="link-text">Home</a></li>
 					<li>
-						<a href="./index.html" class="nav-link link-colored">Home</a>
-					</li>
-					<li>
-						<a
-							href="./components/Alert/Alert.html"
-							class="nav-link link-colored"
+						<a href="./components/Alert/Alert.html" class="link-text"
 							>Documentation</a
 						>
 					</li>
-					<li><a href="#" class="nav-link link-colored">Examples</a></li>
 				</ul>
 			</div>
+
+			<ul class="nav-bar-links">
+				<li>
+					<a
+						class="link"
+						href="https://github.com/poornima-alugubelly"
+						target="_blank"
+					>
+						<i class="fa-fw fab fa-github btn-icon"></i>
+					</a>
+				</li>
+
+				<li>
+					<a
+						class="link"
+						href="https://twitter.com/Moony_codes"
+						target="_blank"
+					>
+						<i class="fa-fw fab fa-twitter btn-icon"></i>
+					</a>
+				</li>
+			</ul>
+			<ul class="drawer" id="drawer">
+				<div class="drawer-header">
+					<a href="./index.html" class="nav-bar-logo">ASIMOV</a>
+					<button class="btn btn-dismiss">
+						<img src="./assets/SVG/dismiss-blue.svg" alt="" />
+					</button>
+				</div>
+
+				<li class="list-item">
+					<a href="./index.html" class="link-text">Home</a>
+				</li>
+				<li class="list-item">
+					<a href="./components/Alert/Alert.html" class="link-text"
+						>Documentation</a
+					>
+				</li>
+			</ul>
 		</nav>
-		<section class="section-container-50-50 container-gutter">
-			<img src="./assets/show-case.svg" class="main-img" />
+		<section class="section-container-50-50 container-gutter img-container">
+			<img src="./assets/SVG/show-case.svg" class="img-responsive" />
 			<div class="text-wrapper holo-bg section-gutter">
 				<h2 class="text-heading txt-high-light text-xl">
 					Build for the future
@@ -52,7 +83,7 @@
 					labore iure, expedita illo et similique quasi eaque numquam pariatur
 					sapiente?
 				</p>
-				<div class="call-to-action">
+				<div class="flex-row gap-s">
 					<a href="#installation" class="btn btn-primary-outline"
 						>Installation</a
 					>
@@ -118,5 +149,6 @@
 				></small
 			>
 		</footer>
+		<script src="./doc-page-js/Header.js"></script>
 	</body>
 </html>

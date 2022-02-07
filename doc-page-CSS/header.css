@@ -97,6 +97,7 @@
 	top: 0;
 	left: 0;
 	display: none;
+	z-index: 4;
 }
 
 .drawer-header {
@@ -116,7 +117,7 @@
 
 /* ----------------------- */
 
-@media (max-width: 780px) {
+@media (max-width: 992px) {
 	.nav-bar {
 		padding: 2rem;
 	}

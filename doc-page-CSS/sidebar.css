@@ -24,7 +24,7 @@
 
 /* ----------- */
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
 	.side-nav-links {
 		opacity: 0;
 	}
@@ -54,8 +54,5 @@
 		background: var(--black);
 		width: 100%;
 		z-index: 4;
-	}
-	.nav-bar-icon {
-		transform: rotate(180deg);
 	}
 }

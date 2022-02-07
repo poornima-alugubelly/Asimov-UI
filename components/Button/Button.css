@@ -24,7 +24,7 @@
 
 .btn-primary-solid:hover {
 	background-color: var(--primary-dark);
-	box-shadow: 0px 5px 10px 0px var(--shadow-color);
+	box-shadow: 0px 2px 8px 0px var(--shadow-color);
 }
 
 .btn-primary-outline:hover {
