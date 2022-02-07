@@ -59,6 +59,7 @@ a {
 		"sidebar main main main main"
 		"sidebar main main main main"
 		"sidebar main main main main";
+	scroll-behavior: smooth;
 }
 
 .text-wrapper {
