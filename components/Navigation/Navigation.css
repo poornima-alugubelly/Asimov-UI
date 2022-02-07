@@ -3,3 +3,134 @@
 .component-showcase .nav-bar-primary {
 	display: block;
 }
+
+.nav-bar-example {
+	position: relative;
+}
+
+/* -------NAVBAR----------- */
+.nav-bar {
+	grid-area: header;
+	min-height: 5rem;
+	border-bottom: 1px solid var(--primary-color);
+	padding: 0 5rem;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-bar-primary {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.nav-bar-logo {
+	font-family: "Monoton", cursive;
+	font-size: 2.5rem;
+
+	color: var(--primary-color);
+}
+
+.nav-bar-links {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+}
+
+.shadow-bottom {
+	-webkit-box-shadow: 0 8px 6px -8px var(--primary-color);
+	-moz-box-shadow: 0 8px 6px -8px var(--primary-color);
+	box-shadow: 0 8px 6px -8px var(--primary-color);
+}
+
+/* ------------------ */
+/* DROP DOWN */
+.dropdown-container {
+	position: relative;
+}
+.btn-dropdown {
+	cursor: pointer;
+	border: none;
+	background-color: inherit;
+	font-family: var(--secondary-font);
+	color: var(--secondary-color);
+	font-size: inherit;
+	display: flex;
+}
+
+.drop-down {
+	padding: 1rem;
+	position: absolute;
+	top: 100%;
+	background-color: var(--black);
+	opacity: 0;
+	pointer-events: none;
+	z-index: 2;
+}
+
+.btn-drop-down-active {
+	opacity: 1;
+	pointer-events: all;
+}
+/* TOGGLE BUTTON */
+.toggle-btn {
+	display: none;
+	flex-direction: column;
+
+	width: 33px;
+	height: 35px;
+}
+
+.toggle-bar {
+	height: 4px;
+	width: 100%;
+	margin: 5px;
+	background-color: var(--primary-color);
+	display: block;
+}
+/* ------------------- */
+/* --------DRAWER--------------- */
+
+.drawer {
+	width: fit-content;
+	text-align: center;
+	background-color: var(--black);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 4;
+}
+
+.drawer-header {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.drawer-header .btn-dismiss {
+	height: 100%;
+	margin-left: auto;
+}
+
+.drawer.active {
+	display: block;
+}
+
+/* ----------------------- */
+
+@media (max-width: 992px) {
+	.nav-bar {
+		padding: 2rem;
+	}
+
+	.toggle-btn {
+		display: block;
+	}
+
+	.nav-bar-primary {
+		display: none;
+	}
+}

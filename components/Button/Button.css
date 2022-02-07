@@ -36,7 +36,8 @@
 	color: var(--secondary-color);
 }
 
-.link-text:hover {
+.link-text:hover,
+.link-active {
 	color: var(--primary-color);
 	border-bottom: 1px double var(--primary-color);
 	margin-bottom: -1px;
