@@ -18,6 +18,7 @@
 .toast > .btn-dismiss {
 	height: 100%;
 	margin-left: auto;
+	width: fit-content;
 }
 
 .toast-red {

@@ -2,6 +2,8 @@
 
 .avatar {
 	--avatar-size: 1.5rem;
+	width: var(--avatar-width);
+	height: var(--avatar-height);
 }
 
 .avatar-xs {
