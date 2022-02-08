@@ -1,7 +1,7 @@
 @import url("../../style.css");
 
 .card {
-	width: 15rem;
+	max-width: 15rem;
 	border-radius: 4px;
 	display: flex;
 }
@@ -50,8 +50,12 @@
 	display: grid;
 	grid-template-columns: 30% 70%;
 	position: relative;
-	min-width: 40rem;
+	max-width: 30rem;
 	gap: 1rem;
+}
+
+.card-horizontal .btn {
+	padding: 0.5rem;
 }
 
 .card-footer {

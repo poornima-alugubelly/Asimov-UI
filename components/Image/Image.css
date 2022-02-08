@@ -1,7 +1,7 @@
 @import url(../../style.css);
 
 .img-container {
-	width: fit-content;
+	width: 100%;
 }
 .img-responsive {
 	width: 100%;
