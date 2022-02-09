@@ -32,7 +32,7 @@
 		box-shadow: var(--black) 0px 2px 4px 0px;
 		overflow-y: hidden;
 		height: 2.7rem;
-		z-index: 4;
+		z-index: 3;
 
 	}
 
