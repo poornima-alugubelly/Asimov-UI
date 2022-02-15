@@ -20,11 +20,9 @@
 .input-radio,
 .input-checkbox {
 	appearance: none;
-
-	width: 1.15em;
-	height: 1.15em;
-	border: 0.15em solid var(--ternary-dark);
-
+	width: 1.2rem;
+	height: 1.2rem;
+	border: 2px solid var(--primary-dark);
 	display: grid;
 	place-content: center;
 }
@@ -32,11 +30,9 @@
 .input-radio::before,
 .input-checkbox::before {
 	content: "";
-	width: 0.65em;
-	height: 0.65em;
-
+	width: 0.7rem;
+	height: 0.7rem;
 	transform: scale(0);
-
 	background-color: var(--primary-color);
 }
 
@@ -50,11 +46,11 @@
 }
 
 .form-container {
-	height: 20rem;
-	width: 20rem;
+	height: auto;
+	max-width: 20rem;
 	display: flex;
 	flex-direction: column;
-	padding: 3rem;
+	padding: 2rem;
 	background-color: var(--ternary-color);
 	border: 1px solid var(--primary-color);
 }
@@ -63,12 +59,12 @@
 	display: none;
 }
 
-.input-validation:invalid:focus {
-	border: 2px solid red;
+.input-invalid + .form-error-msg {
+	display: block;
 }
 
-.input-validation:invalid:focus + .form-error-msg {
-	display: block;
+.input.input-invalid {
+	border: 2px solid red;
 }
 
 .input::placeholder {
@@ -85,4 +81,10 @@
 .form-required-field:after {
 	content: " *";
 	color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+	.form-container {
+		padding: 1rem;
+	}
 }
