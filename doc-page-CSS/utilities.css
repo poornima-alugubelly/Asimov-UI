@@ -206,6 +206,7 @@ a {
 	height: 1rem;
 	width: 1rem;
 	opacity: 0.7;
+	border:none;
 }
 
 .btn-dismiss > img {
@@ -215,10 +216,8 @@ a {
 
 .item-top {
 	position: absolute;
-
-	top: 1%;
-
-	right: 1%;
+	top: 3%;
+	right: 3%;
 }
 
 .btn-dismiss:hover {
