@@ -112,28 +112,47 @@ a {
 	gap: 3rem;
 }
 
+.padding-xs {
+	padding: 0.5rem;
+}
+
 .padding-s {
 	padding: 1rem;
 }
 
 .padding-m {
-	gap: 1.5rem;
+	padding: 1.5rem;
 }
 
 .padding-m {
-	gap: 1.5rem;
+	padding: 1.5rem;
 }
 
 .padding-l {
-	gap: 2rem;
+	padding: 2rem;
 }
 
 .padding-xl {
-	gap: 3rem;
+	padding: 3rem;
+}
+
+.padding-tp-btm-xs {
+	padding: 0.5rem 0rem;
 }
 
 .padding-tp-btm-s {
 	padding: 1rem 0rem;
+}
+
+.padding-tp-btm-m {
+	padding: 1.5rem 0rem;
+}
+
+.padding-tp-btm-l {
+	padding: 2rem 0rem;
+}
+.padding-tp-btm-xl {
+	padding: 3rem 0rem;
 }
 
 .margin-tp-btm-s {
