@@ -83,7 +83,7 @@
 	color: var(--primary-color);
 }
 
-@media (max-width: 648px) {
+@media (max-width: 768px) {
 	.form-container {
 		padding: 1rem;
 	}
