@@ -87,6 +87,10 @@ a {
 }
 
 /* Gutters */
+
+.gap-xs {
+	gap: 0.5rem;
+}
 .gap-s {
 	gap: 1rem;
 }
