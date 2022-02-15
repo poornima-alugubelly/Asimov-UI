@@ -55,7 +55,16 @@
 }
 
 .card-horizontal .btn {
-	padding: 0.5rem;
+	width: 80%;
+}
+
+.card-horizontal .card-footer {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.card-horizontal img {
+	object-fit: contain;
 }
 
 .card-footer {
@@ -77,11 +86,18 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	z-index: 9;
 	background-color: var(--secondary-color);
 	color: black;
 	font-weight: bold;
-	font-size: 3rem;
+	font-family: var(--ternary-font);
+	font-size: 1.5rem;
+	align-items: center;
+}
+
+.text-overlay:hover {
+	background-color: transparent;
+	color: var(--primary-color);
+	opacity: 1;
 }
 
 .card-shadow-dark {

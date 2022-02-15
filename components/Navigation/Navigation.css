@@ -39,6 +39,12 @@
 	align-items: center;
 }
 
+.nav-bar-links .flex-column {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
 .shadow-bottom {
 	-webkit-box-shadow: 0 8px 6px -8px var(--primary-color);
 	-moz-box-shadow: 0 8px 6px -8px var(--primary-color);
