@@ -8,8 +8,7 @@ Build for the future using Asimov UI
 To start using using Asimov UI copy paste the following code into the `<head>` section of your project.
 
 ```HTML
-<link rel="stylesheet"
-href="https://asimov-ui.netlify.app/style.css" />
+<link rel="stylesheet" href="https://asimov-ui.netlify.app/style.css" />
 ```
 
 ## How to use?
