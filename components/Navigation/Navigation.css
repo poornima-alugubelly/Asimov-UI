@@ -1,11 +1,7 @@
 @import url(../../style.css);
 
-.component-showcase .nav-bar-primary {
+.component-showcase .example-1 {
 	display: block;
-}
-
-.nav-bar-example {
-	position: relative;
 }
 
 /* -------NAVBAR----------- */
@@ -13,9 +9,10 @@
 	grid-area: header;
 	min-height: 5rem;
 	border-bottom: 1px solid var(--primary-color);
-	padding: 0 5rem;
+	padding: 0 4rem;
 	font-size: 1.5rem;
 	display: flex;
+	position: relative;
 	justify-content: space-between;
 	align-items: center;
 }
