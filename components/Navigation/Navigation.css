@@ -9,7 +9,7 @@
 	grid-area: header;
 	min-height: 5rem;
 	border-bottom: 1px solid var(--primary-color);
-	padding: 0 5rem;
+	padding: 0 4rem;
 	font-size: 1.5rem;
 	display: flex;
 	position: relative;

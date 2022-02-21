@@ -7,7 +7,7 @@
 }
 
 .card:hover {
-	box-shadow: #000 0px 2px 4px 0px, #000 0px 2px 16px 0px;
+	box-shadow: #000 0px 2px 8px 0px;
 }
 
 .card-title {
@@ -87,7 +87,7 @@
 	top: 0;
 	right: 0;
 	background-color: var(--secondary-color);
-	color: black;
+	color: var(--black);
 	font-weight: bold;
 	font-family: var(--ternary-font);
 	font-size: 1.5rem;
@@ -101,5 +101,5 @@
 }
 
 .card-shadow-dark {
-	box-shadow: #000 0px 2px 4px 0px, #000 0px 2px 16px 0px;
+	box-shadow: #000 0px 2px 8px 0px;
 }

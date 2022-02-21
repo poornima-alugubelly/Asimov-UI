@@ -1,0 +1,19 @@
+@import url(../style.css);
+
+:root {
+	--primary-font: "Rajdhani", sans-serif;
+	--secondary-font: "Chakra Petch", sans-serif;
+	--ternary-font: "Orbitron", sans-serif;
+	--primary-color: #0b6875;
+	--bg-color: #ededed;
+	--secondary-color: #181919;
+	--ternary-color: rgb(251 254 255);
+	--shadow-color: rgb(176 196 208 / 40%);
+	--primary-dark: rgb(71 130 123);
+	--ternary-dark: rgb(201 214 213);
+	--dark-blue: rgb(0, 0, 0, 0.5);
+	--black: rgb(219 230 230);
+	--scroll-color: #07464e;
+	--green: rgb(15, 117, 38);
+	--red: rgb(114, 12, 12);
+}
