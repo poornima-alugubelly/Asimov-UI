@@ -5,11 +5,20 @@
 Build for the future using Asimov UI
 
 ## Installation
-To start using using Asimov UI copy paste the following code into the `<head>` section of your project.
+Asimov UI has 2 themes Dark and Light. To start using using Asimov UI copy paste the relevant link into the `<head>` section of your project.
+
+* Dark Theme link :
 
 ```HTML
-<link rel="stylesheet" href="https://asimov-ui.netlify.app/style.css" />
+<link rel="stylesheet" href="https://asimov-ui.netlify.app/themes/darktheme.css" />
 ```
+
+* Light Theme link :
+
+```HTML
+<link rel="stylesheet" href="https://asimov-ui.netlify.app/themes/lighttheme.css" />
+```
+
 
 ## How to use?
 - To start using the components is simple refer the [documentation](https://asimov-ui.netlify.app/components/alert/alert) and copy paste the HTML code snippets into your HTML file.
