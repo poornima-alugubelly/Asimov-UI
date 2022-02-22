@@ -61,7 +61,8 @@ Asimov UI has 2 themes Dark and Light. To start using using Asimov UI copy paste
 * [Modal](https://asimov-ui.netlify.app/components/modal/modal)
   * Basic Modal
 * [Navigation](https://asimov-ui.netlify.app/components/navigation/navigation)
-  * Simple Navigation
+  * Simple Navigation (Desktop)
+  * Responsive Navigation (Desktop & Mobile)
   * Submenu Navigation
 * [Rating](https://asimov-ui.netlify.app/components/rating/rating)
   * Read Only Rating
