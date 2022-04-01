@@ -51,7 +51,7 @@
 	grid-template-columns: 30% 70%;
 	position: relative;
 	max-width: 30rem;
-	gap: 1rem;
+	gap: 0.5rem;
 }
 
 .card-horizontal .btn {
