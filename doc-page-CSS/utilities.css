@@ -15,6 +15,13 @@ body {
 	font-weight: bold;
 }
 
+.text-green{
+	color: var(--green);
+}
+
+.text-red{
+	color: var(--red);
+}
 ul {
 	list-style-type: none;
 	margin-block-start: 0;
