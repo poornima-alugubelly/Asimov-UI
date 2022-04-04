@@ -305,11 +305,11 @@ a {
 
 /* footer */
 .footer {
-	padding: 3rem;
+	padding: 2rem;
 	text-align: center;
-	border-top: 1px solid var(--secondary-color);
 	gap: 1rem;
 	color: var(--secondary-color);
+	box-shadow : #333 0px -1px 5px 0px
 }
 
 .footer a {
