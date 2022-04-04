@@ -16,4 +16,6 @@ html {
 body {
 	background-color: var(--bg-color);
 	color: var(--secondary-color);
+	display:flex;
+	flex-direction: column;
 }
