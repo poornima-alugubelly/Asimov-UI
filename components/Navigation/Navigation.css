@@ -81,7 +81,7 @@
 .toggle-btn {
 	display: none;
 	flex-direction: column;
-
+	cursor: pointer;
 	width: 33px;
 	height: 35px;
 }
@@ -137,5 +137,11 @@
 
 	.nav-bar-primary {
 		display: none;
+	}
+}
+
+@media (max-width:600px){
+	.nav-bar-logo{
+		font-size: 2rem;
 	}
 }
